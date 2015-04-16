@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A09774411AE0344F00ED69CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09774401AE0344F00ED69CB /* AppDelegate.swift */; };
+		A09774441AE0344F00ED69CB /* SpringHackathon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A09774421AE0344F00ED69CB /* SpringHackathon.xcdatamodeld */; };
+		A09774461AE0344F00ED69CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09774451AE0344F00ED69CB /* ViewController.swift */; };
+		A09774491AE0344F00ED69CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09774471AE0344F00ED69CB /* Main.storyboard */; };
+		A097744B1AE0344F00ED69CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A097744A1AE0344F00ED69CB /* Images.xcassets */; };
+		A097744E1AE0344F00ED69CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A097744C1AE0344F00ED69CB /* LaunchScreen.xib */; };
+		A097745A1AE0345000ED69CB /* SpringHackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09774591AE0345000ED69CB /* SpringHackathonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A09774541AE0345000ED69CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A09774331AE0344F00ED69CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A097743A1AE0344F00ED69CB;
+			remoteInfo = SpringHackathon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A097743B1AE0344F00ED69CB /* SpringHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A097743F1AE0344F00ED69CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A09774401AE0344F00ED69CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A09774431AE0344F00ED69CB /* SpringHackathon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpringHackathon.xcdatamodel; sourceTree = "<group>"; };
+		A09774451AE0344F00ED69CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A09774481AE0344F00ED69CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A097744A1AE0344F00ED69CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A097744D1AE0344F00ED69CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A09774531AE0345000ED69CB /* SpringHackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringHackathonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09774581AE0345000ED69CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A09774591AE0345000ED69CB /* SpringHackathonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringHackathonTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A09774381AE0344F00ED69CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09774501AE0345000ED69CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A09774321AE0344F00ED69CB = {
+			isa = PBXGroup;
+			children = (
+				A097743D1AE0344F00ED69CB /* SpringHackathon */,
+				A09774561AE0345000ED69CB /* SpringHackathonTests */,
+				A097743C1AE0344F00ED69CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A097743C1AE0344F00ED69CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A097743B1AE0344F00ED69CB /* SpringHackathon.app */,
+				A09774531AE0345000ED69CB /* SpringHackathonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A097743D1AE0344F00ED69CB /* SpringHackathon */ = {
+			isa = PBXGroup;
+			children = (
+				A09774401AE0344F00ED69CB /* AppDelegate.swift */,
+				A09774451AE0344F00ED69CB /* ViewController.swift */,
+				A09774471AE0344F00ED69CB /* Main.storyboard */,
+				A097744A1AE0344F00ED69CB /* Images.xcassets */,
+				A097744C1AE0344F00ED69CB /* LaunchScreen.xib */,
+				A09774421AE0344F00ED69CB /* SpringHackathon.xcdatamodeld */,
+				A097743E1AE0344F00ED69CB /* Supporting Files */,
+			);
+			path = SpringHackathon;
+			sourceTree = "<group>";
+		};
+		A097743E1AE0344F00ED69CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A097743F1AE0344F00ED69CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A09774561AE0345000ED69CB /* SpringHackathonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A09774591AE0345000ED69CB /* SpringHackathonTests.swift */,
+				A09774571AE0345000ED69CB /* Supporting Files */,
+			);
+			path = SpringHackathonTests;
+			sourceTree = "<group>";
+		};
+		A09774571AE0345000ED69CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A09774581AE0345000ED69CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A097743A1AE0344F00ED69CB /* SpringHackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A097745D1AE0345000ED69CB /* Build configuration list for PBXNativeTarget "SpringHackathon" */;
+			buildPhases = (
+				A09774371AE0344F00ED69CB /* Sources */,
+				A09774381AE0344F00ED69CB /* Frameworks */,
+				A09774391AE0344F00ED69CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpringHackathon;
+			productName = SpringHackathon;
+			productReference = A097743B1AE0344F00ED69CB /* SpringHackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A09774521AE0345000ED69CB /* SpringHackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A09774601AE0345000ED69CB /* Build configuration list for PBXNativeTarget "SpringHackathonTests" */;
+			buildPhases = (
+				A097744F1AE0345000ED69CB /* Sources */,
+				A09774501AE0345000ED69CB /* Frameworks */,
+				A09774511AE0345000ED69CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A09774551AE0345000ED69CB /* PBXTargetDependency */,
+			);
+			name = SpringHackathonTests;
+			productName = SpringHackathonTests;
+			productReference = A09774531AE0345000ED69CB /* SpringHackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A09774331AE0344F00ED69CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = lucashd;
+				TargetAttributes = {
+					A097743A1AE0344F00ED69CB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A09774521AE0345000ED69CB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A097743A1AE0344F00ED69CB;
+					};
+				};
+			};
+			buildConfigurationList = A09774361AE0344F00ED69CB /* Build configuration list for PBXProject "SpringHackathon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A09774321AE0344F00ED69CB;
+			productRefGroup = A097743C1AE0344F00ED69CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A097743A1AE0344F00ED69CB /* SpringHackathon */,
+				A09774521AE0345000ED69CB /* SpringHackathonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A09774391AE0344F00ED69CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09774491AE0344F00ED69CB /* Main.storyboard in Resources */,
+				A097744E1AE0344F00ED69CB /* LaunchScreen.xib in Resources */,
+				A097744B1AE0344F00ED69CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09774511AE0345000ED69CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A09774371AE0344F00ED69CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09774461AE0344F00ED69CB /* ViewController.swift in Sources */,
+				A09774441AE0344F00ED69CB /* SpringHackathon.xcdatamodeld in Sources */,
+				A09774411AE0344F00ED69CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A097744F1AE0345000ED69CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A097745A1AE0345000ED69CB /* SpringHackathonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A09774551AE0345000ED69CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A097743A1AE0344F00ED69CB /* SpringHackathon */;
+			targetProxy = A09774541AE0345000ED69CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A09774471AE0344F00ED69CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09774481AE0344F00ED69CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A097744C1AE0344F00ED69CB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A097744D1AE0344F00ED69CB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A097745B1AE0345000ED69CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A097745C1AE0345000ED69CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A097745E1AE0345000ED69CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpringHackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A097745F1AE0345000ED69CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpringHackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A09774611AE0345000ED69CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpringHackathonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpringHackathon.app/SpringHackathon";
+			};
+			name = Debug;
+		};
+		A09774621AE0345000ED69CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpringHackathonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpringHackathon.app/SpringHackathon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A09774361AE0344F00ED69CB /* Build configuration list for PBXProject "SpringHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A097745B1AE0345000ED69CB /* Debug */,
+				A097745C1AE0345000ED69CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A097745D1AE0345000ED69CB /* Build configuration list for PBXNativeTarget "SpringHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A097745E1AE0345000ED69CB /* Debug */,
+				A097745F1AE0345000ED69CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A09774601AE0345000ED69CB /* Build configuration list for PBXNativeTarget "SpringHackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09774611AE0345000ED69CB /* Debug */,
+				A09774621AE0345000ED69CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A09774421AE0344F00ED69CB /* SpringHackathon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A09774431AE0344F00ED69CB /* SpringHackathon.xcdatamodel */,
+			);
+			currentVersion = A09774431AE0344F00ED69CB /* SpringHackathon.xcdatamodel */;
+			path = SpringHackathon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A09774331AE0344F00ED69CB /* Project object */;
+}
