@@ -1,0 +1,4250 @@
+{
+  "Reports": {
+    "SINGLE_REPORT_TU": {
+      "expirationDate": "2016-04-06-07:00",
+      "ReportDate": {
+        "TUC": "04/06/2015"
+      },
+      "CreditScore": {
+        "TUC": 990
+      },
+      "Name": {
+        "TUC": "STACEY M BELL"
+      },
+      "AKA": {
+        "TUC": "RING MY BELL"
+      },
+      "DOB": {},
+      "NEW-CurrentAddr": {
+        "TUC": [
+          {
+            "address": "876 POB 876 NEWPORT KY 41071",
+            "date": "04/01/2013"
+          }
+        ]
+      },
+      "NEW-PreviousAddr": {
+        "TUC": []
+      },
+      "NEW-Employer": {
+        "TUC": [
+          {
+            "name": "WFDS",
+            "date": ""
+          },
+          {
+            "name": "LONG JOHNS SILVER ORANGE CA",
+            "date": ""
+          }
+        ]
+      },
+      "NEW-PreviousEmployer": {
+        "TUC": []
+      },
+      "ConsumerStatement": {
+        "TUC": "MY CREDIT IS AWESOME. WHOOP WHOOP!"
+      },
+      "OpenAccts": {
+        "TUC": 26
+      },
+      "TotalAccounts": {
+        "TUC": 35
+      },
+      "TotalBalances": {
+        "TUC": 538185
+      },
+      "CloseAccounts": {
+        "TUC": 9
+      },
+      "TotalMonthlyPayments": {
+        "TUC": 10718
+      },
+      "DelinquentAccounts": {
+        "TUC": 0
+      },
+      "DerogatoryAccounts": {
+        "TUC": 0
+      },
+      "PublicRecords": {
+        "TUC": 0
+      },
+      "InquirySummary": {
+        "TUC": 0
+      },
+      "PubRecs": {
+        "Bankruptcy": [],
+        "LegalItem": [],
+        "Garnishment": [],
+        "MaritalItem": [],
+        "MiscPublicRecord": [],
+        "FinancialCounseling": [],
+        "FinancingStatement": [],
+        "Foreclosure": [],
+        "TaxLien": []
+      },
+      "Inquiries": [
+        {
+          "Bureau": "TUC",
+          "Owner": "CAPITAL ONE",
+          "DateOfInquiry": "04/14/2010"
+        }
+      ],
+      "Accounts": {
+        "RealEstate": [
+          {
+            "accountName": {
+              "TUC": "CENTURY BANK"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "1111115****"
+            },
+            "currentBalance": {
+              "TUC": 37243
+            },
+            "dateAccountStatus": {
+              "TUC": "02/11/2013"
+            },
+            "dateOpened": {
+              "TUC": "02/06/1990"
+            },
+            "dateReported": {
+              "TUC": "02/11/2013"
+            },
+            "highBalance": {
+              "TUC": 72750
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 1453
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "324"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "Conventional real estate mortgage"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": "02/05/2013"
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            },
+            "oldestYear": {
+              "Year": 2013
+            },
+            "PaymentHistory-TUC": {
+              "M25": "C",
+              "MY25": "1-2013",
+              "M24": "C",
+              "MY24": "12-2012",
+              "M23": "C",
+              "MY23": "11-2012",
+              "M22": "C",
+              "MY22": "10-2012",
+              "M21": "C",
+              "MY21": "9-2012",
+              "M20": "C",
+              "MY20": "8-2012",
+              "M19": "C",
+              "MY19": "7-2012",
+              "M18": "C",
+              "MY18": "6-2012",
+              "M17": "C",
+              "MY17": "5-2012",
+              "M16": "C",
+              "MY16": "4-2012",
+              "M15": "C",
+              "MY15": "3-2012",
+              "M14": "C",
+              "MY14": "2-2012",
+              "M13": "C",
+              "MY13": "1-2012",
+              "M12": "C",
+              "MY12": "12-2011",
+              "M11": "C",
+              "MY11": "11-2011",
+              "M10": "C",
+              "MY10": "10-2011",
+              "M9": "C",
+              "MY9": "9-2011",
+              "M8": "C",
+              "MY8": "8-2011",
+              "M7": "C",
+              "MY7": "7-2011",
+              "M6": "C",
+              "MY6": "6-2011",
+              "M5": "C",
+              "MY5": "5-2011",
+              "M4": "C",
+              "MY4": "4-2011",
+              "M3": "",
+              "MY3": "3-2011",
+              "M2": "",
+              "MY2": "2-2011"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "HOMESIDE LND"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "111112****"
+            },
+            "currentBalance": {
+              "TUC": 380778
+            },
+            "dateAccountStatus": {
+              "TUC": "01/17/2013"
+            },
+            "dateOpened": {
+              "TUC": "07/26/2007"
+            },
+            "dateReported": {
+              "TUC": "01/17/2013"
+            },
+            "highBalance": {
+              "TUC": 491700
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 3964
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "360"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "Conventional real estate mortgage"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": "12/24/2012"
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            },
+            "oldestYear": {
+              "Year": 2012
+            },
+            "PaymentHistory-TUC": {
+              "M36": "C",
+              "MY36": "12-2012",
+              "M35": "C",
+              "MY35": "11-2012",
+              "M34": "C",
+              "MY34": "10-2012",
+              "M33": "C",
+              "MY33": "9-2012",
+              "M32": "C",
+              "MY32": "8-2012",
+              "M31": "C",
+              "MY31": "7-2012",
+              "M30": "U",
+              "MY30": "6-2012",
+              "M29": "C",
+              "MY29": "5-2012",
+              "M28": "C",
+              "MY28": "4-2012",
+              "M27": "C",
+              "MY27": "3-2012",
+              "M26": "C",
+              "MY26": "2-2012",
+              "M25": "C",
+              "MY25": "1-2012",
+              "M24": "C",
+              "MY24": "12-2011",
+              "M23": "C",
+              "MY23": "11-2011",
+              "M22": "C",
+              "MY22": "10-2011",
+              "M21": "C",
+              "MY21": "9-2011",
+              "M20": "C",
+              "MY20": "8-2011",
+              "M19": "C",
+              "MY19": "7-2011",
+              "M18": "C",
+              "MY18": "6-2011",
+              "M17": "U",
+              "MY17": "5-2011",
+              "M16": "C",
+              "MY16": "4-2011",
+              "M15": "C",
+              "MY15": "3-2011",
+              "M14": "C",
+              "MY14": "2-2011",
+              "M13": "C",
+              "MY13": "1-2011"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "CHASE MORT"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "111"
+            },
+            "currentBalance": {
+              "TUC": 44322
+            },
+            "dateAccountStatus": {
+              "TUC": "01/13/2013"
+            },
+            "dateOpened": {
+              "TUC": "08/03/2006"
+            },
+            "dateReported": {
+              "TUC": "01/13/2013"
+            },
+            "highBalance": {
+              "TUC": 63000
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 646
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "360"
+            },
+            "responsibility": {
+              "TUC": "Shared"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "FHA real estate mortgage"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": "01/27/2013"
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            },
+            "oldestYear": {
+              "Year": 2012
+            },
+            "PaymentHistory-TUC": {
+              "M36": "C",
+              "MY36": "12-2012",
+              "M35": "C",
+              "MY35": "11-2012",
+              "M34": "C",
+              "MY34": "10-2012",
+              "M33": "C",
+              "MY33": "9-2012",
+              "M32": "C",
+              "MY32": "8-2012",
+              "M31": "C",
+              "MY31": "7-2012",
+              "M30": "C",
+              "MY30": "6-2012",
+              "M29": "C",
+              "MY29": "5-2012",
+              "M28": "C",
+              "MY28": "4-2012",
+              "M27": "C",
+              "MY27": "3-2012",
+              "M26": "C",
+              "MY26": "2-2012",
+              "M25": "C",
+              "MY25": "1-2012",
+              "M24": "C",
+              "MY24": "12-2011",
+              "M23": "C",
+              "MY23": "11-2011",
+              "M22": "C",
+              "MY22": "10-2011",
+              "M21": "C",
+              "MY21": "9-2011",
+              "M20": "C",
+              "MY20": "8-2011",
+              "M19": "C",
+              "MY19": "7-2011",
+              "M18": "C",
+              "MY18": "6-2011",
+              "M17": "C",
+              "MY17": "5-2011",
+              "M16": "C",
+              "MY16": "4-2011",
+              "M15": "C",
+              "MY15": "3-2011",
+              "M14": "C",
+              "MY14": "2-2011",
+              "M13": "C",
+              "MY13": "1-2011"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "HOMEWARDRES"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "111117****"
+            },
+            "currentBalance": {
+              "TUC": 63830
+            },
+            "dateAccountStatus": {
+              "TUC": "01/12/2013"
+            },
+            "dateOpened": {
+              "TUC": "02/28/2006"
+            },
+            "dateReported": {
+              "TUC": "01/12/2013"
+            },
+            "highBalance": {
+              "TUC": 93100
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 1087
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "180"
+            },
+            "responsibility": {
+              "TUC": "Shared"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "Conventional real estate mortgage"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": "01/26/2013"
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            },
+            "oldestYear": {
+              "Year": 2012
+            },
+            "PaymentHistory-TUC": {
+              "M36": "C",
+              "MY36": "12-2012",
+              "M35": "C",
+              "MY35": "11-2012",
+              "M34": "C",
+              "MY34": "10-2012",
+              "M33": "U",
+              "MY33": "9-2012",
+              "M32": "C",
+              "MY32": "8-2012",
+              "M31": "C",
+              "MY31": "7-2012",
+              "M30": "C",
+              "MY30": "6-2012",
+              "M29": "C",
+              "MY29": "5-2012",
+              "M28": "C",
+              "MY28": "4-2012",
+              "M27": "C",
+              "MY27": "3-2012",
+              "M26": "C",
+              "MY26": "2-2012",
+              "M25": "C",
+              "MY25": "1-2012",
+              "M24": "C",
+              "MY24": "12-2011",
+              "M23": "C",
+              "MY23": "11-2011",
+              "M22": "C",
+              "MY22": "10-2011",
+              "M21": "C",
+              "MY21": "9-2011",
+              "M20": "C",
+              "MY20": "8-2011",
+              "M19": "C",
+              "MY19": "7-2011",
+              "M18": "C",
+              "MY18": "6-2011",
+              "M17": "C",
+              "MY17": "5-2011",
+              "M16": "C",
+              "MY16": "4-2011",
+              "M15": "C",
+              "MY15": "3-2011",
+              "M14": "C",
+              "MY14": "2-2011",
+              "M13": "C",
+              "MY13": "1-2011"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "PENTAGON FCU"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "11111**"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "09/16/2011"
+            },
+            "dateOpened": {
+              "TUC": "02/04/2006"
+            },
+            "dateReported": {
+              "TUC": "09/16/2011"
+            },
+            "highBalance": {
+              "TUC": 32150
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 325
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "180"
+            },
+            "responsibility": {
+              "TUC": "Co-maker/Signer"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "Real estate mortgage"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": "08/08/2011"
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            },
+            "oldestYear": {
+              "Year": 2011
+            },
+            "PaymentHistory-TUC": {
+              "M32": "U",
+              "MY32": "8-2011",
+              "M31": "C",
+              "MY31": "7-2011",
+              "M30": "C",
+              "MY30": "6-2011",
+              "M29": "U",
+              "MY29": "5-2011",
+              "M28": "C",
+              "MY28": "4-2011",
+              "M27": "C",
+              "MY27": "3-2011",
+              "M26": "C",
+              "MY26": "2-2011",
+              "M25": "C",
+              "MY25": "1-2011",
+              "M24": "C",
+              "MY24": "12-2010",
+              "M23": "U",
+              "MY23": "11-2010",
+              "M22": "C",
+              "MY22": "10-2010",
+              "M21": "C",
+              "MY21": "9-2010",
+              "M20": "U",
+              "MY20": "8-2010",
+              "M19": "C",
+              "MY19": "7-2010",
+              "M18": "U",
+              "MY18": "6-2010",
+              "M17": "C",
+              "MY17": "5-2010",
+              "M16": "C",
+              "MY16": "4-2010",
+              "M15": "U",
+              "MY15": "3-2010",
+              "M14": "C",
+              "MY14": "2-2010",
+              "M13": "C",
+              "MY13": "1-2010",
+              "M12": "U",
+              "MY12": "12-2009",
+              "M11": "C",
+              "MY11": "11-2009",
+              "M10": "C",
+              "MY10": "10-2009",
+              "M9": "U",
+              "MY9": "9-2009"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "REPUBLIC MTG"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "1111**"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "09/17/2010"
+            },
+            "dateOpened": {
+              "TUC": "02/05/1990"
+            },
+            "dateReported": {
+              "TUC": "09/17/2010"
+            },
+            "highBalance": {
+              "TUC": 72750
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 1336
+            },
+            "accountCondition": {
+              "TUC": "Transferred"
+            },
+            "termMonths": {
+              "TUC": "0"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": "Transferred to another lender"
+            },
+            "accountType": {
+              "TUC": "Conventional real estate mortgage"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": "09/16/2010"
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            },
+            "oldestYear": {
+              "Year": 2010
+            },
+            "PaymentHistory-TUC": {
+              "M32": "C",
+              "MY32": "8-2010",
+              "M31": "C",
+              "MY31": "7-2010",
+              "M30": "C",
+              "MY30": "6-2010",
+              "M29": "C",
+              "MY29": "5-2010",
+              "M28": "C",
+              "MY28": "4-2010",
+              "M27": "",
+              "MY27": "3-2010",
+              "M26": "",
+              "MY26": "2-2010",
+              "M25": "",
+              "MY25": "1-2010",
+              "M24": "",
+              "MY24": "12-2009",
+              "M23": "",
+              "MY23": "11-2009",
+              "M22": "",
+              "MY22": "10-2009",
+              "M21": "",
+              "MY21": "9-2009",
+              "M20": "",
+              "MY20": "8-2009",
+              "M19": "",
+              "MY19": "7-2009",
+              "M18": "",
+              "MY18": "6-2009",
+              "M17": "",
+              "MY17": "5-2009",
+              "M16": "",
+              "MY16": "4-2009",
+              "M15": "",
+              "MY15": "3-2009",
+              "M14": "",
+              "MY14": "2-2009",
+              "M13": "",
+              "MY13": "1-2009",
+              "M12": "",
+              "MY12": "12-2008",
+              "M11": "",
+              "MY11": "11-2008",
+              "M10": "",
+              "MY10": "10-2008",
+              "M9": "",
+              "MY9": "9-2008"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "CRESTAR BANK"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "11111****"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "03/26/2010"
+            },
+            "dateOpened": {
+              "TUC": "03/01/1990"
+            },
+            "dateReported": {
+              "TUC": "03/26/2010"
+            },
+            "highBalance": {
+              "TUC": 72750
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 1336
+            },
+            "accountCondition": {
+              "TUC": "Transferred"
+            },
+            "termMonths": {
+              "TUC": "360"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": "Transferred to another lender"
+            },
+            "accountType": {
+              "TUC": "Conventional real estate mortgage"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": "03/31/2010"
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            },
+            "oldestYear": {
+              "Year": 2010
+            },
+            "PaymentHistory-TUC": {
+              "M26": "U",
+              "MY26": "2-2010",
+              "M25": "C",
+              "MY25": "1-2010",
+              "M24": "U",
+              "MY24": "12-2009",
+              "M23": "C",
+              "MY23": "11-2009",
+              "M22": "C",
+              "MY22": "10-2009",
+              "M21": "C",
+              "MY21": "9-2009",
+              "M20": "C",
+              "MY20": "8-2009",
+              "M19": "C",
+              "MY19": "7-2009",
+              "M18": "C",
+              "MY18": "6-2009",
+              "M17": "C",
+              "MY17": "5-2009",
+              "M16": "C",
+              "MY16": "4-2009",
+              "M15": "C",
+              "MY15": "3-2009",
+              "M14": "C",
+              "MY14": "2-2009",
+              "M13": "C",
+              "MY13": "1-2009",
+              "M12": "C",
+              "MY12": "12-2008",
+              "M11": "C",
+              "MY11": "11-2008",
+              "M10": "C",
+              "MY10": "10-2008",
+              "M9": "U",
+              "MY9": "9-2008",
+              "M8": "U",
+              "MY8": "8-2008",
+              "M7": "C",
+              "MY7": "7-2008",
+              "M6": "C",
+              "MY6": "6-2008",
+              "M5": "C",
+              "MY5": "5-2008",
+              "M4": "C",
+              "MY4": "4-2008",
+              "M3": "U",
+              "MY3": "3-2008"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "FIRST STAR"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "1111**"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "07/11/2007"
+            },
+            "dateOpened": {
+              "TUC": "02/03/2006"
+            },
+            "dateReported": {
+              "TUC": "07/21/2007"
+            },
+            "highBalance": {
+              "TUC": 482250
+            },
+            "dateClosed": {
+              "TUC": "07/11/2007"
+            },
+            "monthlyPayment": {
+              "TUC": 4273
+            },
+            "accountCondition": {
+              "TUC": "Closed"
+            },
+            "termMonths": {
+              "TUC": "30"
+            },
+            "responsibility": {
+              "TUC": "Shared"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "Real estate"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": "07/04/2007"
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            },
+            "oldestYear": {
+              "Year": 2007
+            },
+            "PaymentHistory-TUC": {
+              "M30": "U",
+              "MY30": "6-2007",
+              "M29": "C",
+              "MY29": "5-2007",
+              "M28": "C",
+              "MY28": "4-2007",
+              "M27": "C",
+              "MY27": "3-2007",
+              "M26": "C",
+              "MY26": "2-2007",
+              "M25": "C",
+              "MY25": "1-2007",
+              "M24": "C",
+              "MY24": "12-2006",
+              "M23": "C",
+              "MY23": "11-2006",
+              "M22": "C",
+              "MY22": "10-2006",
+              "M21": "C",
+              "MY21": "9-2006",
+              "M20": "C",
+              "MY20": "8-2006",
+              "M19": "C",
+              "MY19": "7-2006",
+              "M18": "C",
+              "MY18": "6-2006",
+              "M17": "",
+              "MY17": "5-2006",
+              "M16": "",
+              "MY16": "4-2006",
+              "M15": "",
+              "MY15": "3-2006",
+              "M14": "",
+              "MY14": "2-2006",
+              "M13": "",
+              "MY13": "1-2006",
+              "M12": "",
+              "MY12": "12-2005",
+              "M11": "",
+              "MY11": "11-2005",
+              "M10": "",
+              "MY10": "10-2005",
+              "M9": "",
+              "MY9": "9-2005",
+              "M8": "",
+              "MY8": "8-2005",
+              "M7": "",
+              "MY7": "7-2005"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "BANK AMERICA"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "111113****"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "08/20/2006"
+            },
+            "dateOpened": {
+              "TUC": "12/12/2000"
+            },
+            "dateReported": {
+              "TUC": "09/15/2006"
+            },
+            "highBalance": {
+              "TUC": 93420
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 960
+            },
+            "accountCondition": {
+              "TUC": "Paid"
+            },
+            "termMonths": {
+              "TUC": "360"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "FHA loan"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            },
+            "oldestYear": {
+              "Year": 2006
+            },
+            "PaymentHistory-TUC": {
+              "M32": "U",
+              "MY32": "8-2006",
+              "M31": "C",
+              "MY31": "7-2006",
+              "M30": "",
+              "MY30": "6-2006",
+              "M29": "",
+              "MY29": "5-2006",
+              "M28": "",
+              "MY28": "4-2006",
+              "M27": "",
+              "MY27": "3-2006",
+              "M26": "",
+              "MY26": "2-2006",
+              "M25": "",
+              "MY25": "1-2006",
+              "M24": "",
+              "MY24": "12-2005",
+              "M23": "",
+              "MY23": "11-2005",
+              "M22": "",
+              "MY22": "10-2005",
+              "M21": "",
+              "MY21": "9-2005",
+              "M20": "",
+              "MY20": "8-2005",
+              "M19": "",
+              "MY19": "7-2005",
+              "M18": "",
+              "MY18": "6-2005",
+              "M17": "",
+              "MY17": "5-2005",
+              "M16": "",
+              "MY16": "4-2005",
+              "M15": "",
+              "MY15": "3-2005",
+              "M14": "",
+              "MY14": "2-2005",
+              "M13": "",
+              "MY13": "1-2005",
+              "M12": "",
+              "MY12": "12-2004",
+              "M11": "",
+              "MY11": "11-2004",
+              "M10": "",
+              "MY10": "10-2004",
+              "M9": "",
+              "MY9": "9-2004"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "BANK AMERICA"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "111118****"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "08/19/2006"
+            },
+            "dateOpened": {
+              "TUC": "11/22/2000"
+            },
+            "dateReported": {
+              "TUC": "09/14/2006"
+            },
+            "highBalance": {
+              "TUC": 81898
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 890
+            },
+            "accountCondition": {
+              "TUC": "Paid"
+            },
+            "termMonths": {
+              "TUC": "360"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "FHA loan"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            },
+            "oldestYear": {
+              "Year": 2006
+            },
+            "PaymentHistory-TUC": {
+              "M32": "U",
+              "MY32": "8-2006",
+              "M31": "C",
+              "MY31": "7-2006",
+              "M30": "",
+              "MY30": "6-2006",
+              "M29": "",
+              "MY29": "5-2006",
+              "M28": "",
+              "MY28": "4-2006",
+              "M27": "",
+              "MY27": "3-2006",
+              "M26": "",
+              "MY26": "2-2006",
+              "M25": "",
+              "MY25": "1-2006",
+              "M24": "",
+              "MY24": "12-2005",
+              "M23": "",
+              "MY23": "11-2005",
+              "M22": "",
+              "MY22": "10-2005",
+              "M21": "",
+              "MY21": "9-2005",
+              "M20": "",
+              "MY20": "8-2005",
+              "M19": "",
+              "MY19": "7-2005",
+              "M18": "",
+              "MY18": "6-2005",
+              "M17": "",
+              "MY17": "5-2005",
+              "M16": "",
+              "MY16": "4-2005",
+              "M15": "",
+              "MY15": "3-2005",
+              "M14": "",
+              "MY14": "2-2005",
+              "M13": "",
+              "MY13": "1-2005",
+              "M12": "",
+              "MY12": "12-2004",
+              "M11": "",
+              "MY11": "11-2004",
+              "M10": "",
+              "MY10": "10-2004",
+              "M9": "",
+              "MY9": "9-2004"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "BANK AMERICA"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "111118****"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "08/18/2006"
+            },
+            "dateOpened": {
+              "TUC": "11/21/2000"
+            },
+            "dateReported": {
+              "TUC": "09/13/2006"
+            },
+            "highBalance": {
+              "TUC": 67989
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 770
+            },
+            "accountCondition": {
+              "TUC": "Paid"
+            },
+            "termMonths": {
+              "TUC": "360"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "FHA loan"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            },
+            "oldestYear": {
+              "Year": 2006
+            },
+            "PaymentHistory-TUC": {
+              "M32": "U",
+              "MY32": "8-2006",
+              "M31": "C",
+              "MY31": "7-2006",
+              "M30": "",
+              "MY30": "6-2006",
+              "M29": "",
+              "MY29": "5-2006",
+              "M28": "",
+              "MY28": "4-2006",
+              "M27": "",
+              "MY27": "3-2006",
+              "M26": "",
+              "MY26": "2-2006",
+              "M25": "",
+              "MY25": "1-2006",
+              "M24": "",
+              "MY24": "12-2005",
+              "M23": "",
+              "MY23": "11-2005",
+              "M22": "",
+              "MY22": "10-2005",
+              "M21": "",
+              "MY21": "9-2005",
+              "M20": "",
+              "MY20": "8-2005",
+              "M19": "",
+              "MY19": "7-2005",
+              "M18": "",
+              "MY18": "6-2005",
+              "M17": "",
+              "MY17": "5-2005",
+              "M16": "",
+              "MY16": "4-2005",
+              "M15": "",
+              "MY15": "3-2005",
+              "M14": "",
+              "MY14": "2-2005",
+              "M13": "",
+              "MY13": "1-2005",
+              "M12": "",
+              "MY12": "12-2004",
+              "M11": "",
+              "MY11": "11-2004",
+              "M10": "",
+              "MY10": "10-2004",
+              "M9": "",
+              "MY9": "9-2004"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "BANK AMERICA"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "111118****"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "08/17/2006"
+            },
+            "dateOpened": {
+              "TUC": "11/20/2000"
+            },
+            "dateReported": {
+              "TUC": "09/12/2006"
+            },
+            "highBalance": {
+              "TUC": 68715
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 760
+            },
+            "accountCondition": {
+              "TUC": "Paid"
+            },
+            "termMonths": {
+              "TUC": "360"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "FHA loan"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            },
+            "oldestYear": {
+              "Year": 2006
+            },
+            "PaymentHistory-TUC": {
+              "M32": "U",
+              "MY32": "8-2006",
+              "M31": "C",
+              "MY31": "7-2006",
+              "M30": "",
+              "MY30": "6-2006",
+              "M29": "",
+              "MY29": "5-2006",
+              "M28": "",
+              "MY28": "4-2006",
+              "M27": "",
+              "MY27": "3-2006",
+              "M26": "",
+              "MY26": "2-2006",
+              "M25": "",
+              "MY25": "1-2006",
+              "M24": "",
+              "MY24": "12-2005",
+              "M23": "",
+              "MY23": "11-2005",
+              "M22": "",
+              "MY22": "10-2005",
+              "M21": "",
+              "MY21": "9-2005",
+              "M20": "",
+              "MY20": "8-2005",
+              "M19": "",
+              "MY19": "7-2005",
+              "M18": "",
+              "MY18": "6-2005",
+              "M17": "",
+              "MY17": "5-2005",
+              "M16": "",
+              "MY16": "4-2005",
+              "M15": "",
+              "MY15": "3-2005",
+              "M14": "",
+              "MY14": "2-2005",
+              "M13": "",
+              "MY13": "1-2005",
+              "M12": "",
+              "MY12": "12-2004",
+              "M11": "",
+              "MY11": "11-2004",
+              "M10": "",
+              "MY10": "10-2004",
+              "M9": "",
+              "MY9": "9-2004"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "BANK AMERICA"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "111118****"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "08/16/2006"
+            },
+            "dateOpened": {
+              "TUC": "11/19/2000"
+            },
+            "dateReported": {
+              "TUC": "09/11/2006"
+            },
+            "highBalance": {
+              "TUC": 64200
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 731
+            },
+            "accountCondition": {
+              "TUC": "Paid"
+            },
+            "termMonths": {
+              "TUC": "360"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "FHA loan"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            },
+            "oldestYear": {
+              "Year": 2006
+            },
+            "PaymentHistory-TUC": {
+              "M32": "U",
+              "MY32": "8-2006",
+              "M31": "C",
+              "MY31": "7-2006",
+              "M30": "",
+              "MY30": "6-2006",
+              "M29": "",
+              "MY29": "5-2006",
+              "M28": "",
+              "MY28": "4-2006",
+              "M27": "",
+              "MY27": "3-2006",
+              "M26": "",
+              "MY26": "2-2006",
+              "M25": "",
+              "MY25": "1-2006",
+              "M24": "",
+              "MY24": "12-2005",
+              "M23": "",
+              "MY23": "11-2005",
+              "M22": "",
+              "MY22": "10-2005",
+              "M21": "",
+              "MY21": "9-2005",
+              "M20": "",
+              "MY20": "8-2005",
+              "M19": "",
+              "MY19": "7-2005",
+              "M18": "",
+              "MY18": "6-2005",
+              "M17": "",
+              "MY17": "5-2005",
+              "M16": "",
+              "MY16": "4-2005",
+              "M15": "",
+              "MY15": "3-2005",
+              "M14": "",
+              "MY14": "2-2005",
+              "M13": "",
+              "MY13": "1-2005",
+              "M12": "",
+              "MY12": "12-2004",
+              "M11": "",
+              "MY11": "11-2004",
+              "M10": "",
+              "MY10": "10-2004",
+              "M9": "",
+              "MY9": "9-2004"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "BANKAMERICA"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "1111**"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "04/30/2006"
+            },
+            "dateOpened": {
+              "TUC": "12/13/2000"
+            },
+            "dateReported": {
+              "TUC": "04/30/2006"
+            },
+            "highBalance": {
+              "TUC": 93420
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 960
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "360"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "FHA loan"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "BANKAMERICA"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "1111**"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "04/30/2006"
+            },
+            "dateOpened": {
+              "TUC": "11/26/2000"
+            },
+            "dateReported": {
+              "TUC": "04/30/2006"
+            },
+            "highBalance": {
+              "TUC": 67989
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 770
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "360"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "FHA loan"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "BANKAMERICA"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "1111**"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "04/30/2006"
+            },
+            "dateOpened": {
+              "TUC": "11/25/2000"
+            },
+            "dateReported": {
+              "TUC": "04/30/2006"
+            },
+            "highBalance": {
+              "TUC": 68715
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 760
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "360"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "FHA loan"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "BANKAMERICA"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "1111**"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "04/30/2006"
+            },
+            "dateOpened": {
+              "TUC": "11/24/2000"
+            },
+            "dateReported": {
+              "TUC": "04/30/2006"
+            },
+            "highBalance": {
+              "TUC": 64200
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 731
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "360"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "FHA loan"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "MERITOR"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "1111100****"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "01/10/2006"
+            },
+            "dateOpened": {
+              "TUC": "05/31/2001"
+            },
+            "dateReported": {
+              "TUC": "03/31/2006"
+            },
+            "highBalance": {
+              "TUC": 340000
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 3516
+            },
+            "accountCondition": {
+              "TUC": "Paid"
+            },
+            "termMonths": {
+              "TUC": "360"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "Real estate"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": "01/31/2006"
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "HOMEWARDRES"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "11111**"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "03/31/2006"
+            },
+            "dateOpened": {
+              "TUC": "10/04/2000"
+            },
+            "dateReported": {
+              "TUC": "03/27/2006"
+            },
+            "highBalance": {
+              "TUC": 90000
+            },
+            "dateClosed": {
+              "TUC": "03/31/2006"
+            },
+            "monthlyPayment": {
+              "TUC": 1005
+            },
+            "accountCondition": {
+              "TUC": "Closed"
+            },
+            "termMonths": {
+              "TUC": "360"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "Real estate"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "BANKAMERICA"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "1111**"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "02/11/2006"
+            },
+            "dateOpened": {
+              "TUC": "08/04/2000"
+            },
+            "dateReported": {
+              "TUC": "02/10/2006"
+            },
+            "highBalance": {
+              "TUC": 83040
+            },
+            "dateClosed": {
+              "TUC": "02/11/2006"
+            },
+            "monthlyPayment": {
+              "TUC": 868
+            },
+            "accountCondition": {
+              "TUC": "Closed"
+            },
+            "termMonths": {
+              "TUC": "360"
+            },
+            "responsibility": {
+              "TUC": "Terminated"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "FHA loan"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "MELLON MTG"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "111112****"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "02/06/2004"
+            },
+            "dateOpened": {
+              "TUC": "08/02/1999"
+            },
+            "dateReported": {
+              "TUC": "03/25/2004"
+            },
+            "highBalance": {
+              "TUC": 79251
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 949
+            },
+            "accountCondition": {
+              "TUC": "Paid"
+            },
+            "termMonths": {
+              "TUC": "360"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "FHA loan"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "DOMINION MTG"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "111115****"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "10/11/2003"
+            },
+            "dateOpened": {
+              "TUC": "08/01/2000"
+            },
+            "dateReported": {
+              "TUC": "12/20/2003"
+            },
+            "highBalance": {
+              "TUC": 83040
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 829
+            },
+            "accountCondition": {
+              "TUC": "Transferred"
+            },
+            "termMonths": {
+              "TUC": "360"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": "Transfer"
+            },
+            "accountType": {
+              "TUC": "FHA loan"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "DOMINION MTG"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "111113****"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "10/10/2003"
+            },
+            "dateOpened": {
+              "TUC": "12/11/2000"
+            },
+            "dateReported": {
+              "TUC": "12/19/2003"
+            },
+            "highBalance": {
+              "TUC": 93420
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 954
+            },
+            "accountCondition": {
+              "TUC": "Transferred"
+            },
+            "termMonths": {
+              "TUC": "360"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": "Transfer"
+            },
+            "accountType": {
+              "TUC": "FHA loan"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            }
+          }
+        ],
+        "Revolving": [
+          {
+            "accountName": {
+              "TUC": "BK OF AMER"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "71**"
+            },
+            "currentBalance": {
+              "TUC": 1104
+            },
+            "dateAccountStatus": {
+              "TUC": "02/09/2013"
+            },
+            "dateOpened": {
+              "TUC": "05/27/2005"
+            },
+            "dateReported": {
+              "TUC": "02/09/2013"
+            },
+            "highBalance": {
+              "TUC": 5091
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 22
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "0"
+            },
+            "responsibility": {
+              "TUC": "Individual"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "Credit Card"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": "01/31/2013"
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 17000
+            },
+            "oldestYear": {
+              "Year": 2013
+            },
+            "PaymentHistory-TUC": {
+              "M25": "C",
+              "MY25": "1-2013",
+              "M24": "C",
+              "MY24": "12-2012",
+              "M23": "C",
+              "MY23": "11-2012",
+              "M22": "C",
+              "MY22": "10-2012",
+              "M21": "C",
+              "MY21": "9-2012",
+              "M20": "C",
+              "MY20": "8-2012",
+              "M19": "C",
+              "MY19": "7-2012",
+              "M18": "C",
+              "MY18": "6-2012",
+              "M17": "C",
+              "MY17": "5-2012",
+              "M16": "C",
+              "MY16": "4-2012",
+              "M15": "C",
+              "MY15": "3-2012",
+              "M14": "C",
+              "MY14": "2-2012",
+              "M13": "C",
+              "MY13": "1-2012",
+              "M12": "C",
+              "MY12": "12-2011",
+              "M11": "C",
+              "MY11": "11-2011",
+              "M10": "C",
+              "MY10": "10-2011",
+              "M9": "C",
+              "MY9": "9-2011",
+              "M8": "C",
+              "MY8": "8-2011",
+              "M7": "C",
+              "MY7": "7-2011",
+              "M6": "C",
+              "MY6": "6-2011",
+              "M5": "C",
+              "MY5": "5-2011",
+              "M4": "C",
+              "MY4": "4-2011",
+              "M3": "C",
+              "MY3": "3-2011",
+              "M2": "C",
+              "MY2": "2-2011"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "LORD&amp;TAYLOR"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "11**"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "08/22/2012"
+            },
+            "dateOpened": {
+              "TUC": "02/02/1998"
+            },
+            "dateReported": {
+              "TUC": "01/16/2013"
+            },
+            "highBalance": {
+              "TUC": 361
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 0
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "0"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": ""
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": "08/07/2012"
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            },
+            "oldestYear": {
+              "Year": 2012
+            },
+            "PaymentHistory-TUC": {
+              "M36": "C",
+              "MY36": "12-2012",
+              "M35": "C",
+              "MY35": "11-2012",
+              "M34": "C",
+              "MY34": "10-2012",
+              "M33": "C",
+              "MY33": "9-2012",
+              "M32": "C",
+              "MY32": "8-2012",
+              "M31": "U",
+              "MY31": "7-2012",
+              "M30": "U",
+              "MY30": "6-2012",
+              "M29": "U",
+              "MY29": "5-2012",
+              "M28": "U",
+              "MY28": "4-2012",
+              "M27": "C",
+              "MY27": "3-2012",
+              "M26": "C",
+              "MY26": "2-2012",
+              "M25": "C",
+              "MY25": "1-2012",
+              "M24": "U",
+              "MY24": "12-2011",
+              "M23": "U",
+              "MY23": "11-2011",
+              "M22": "U",
+              "MY22": "10-2011",
+              "M21": "U",
+              "MY21": "9-2011",
+              "M20": "C",
+              "MY20": "8-2011",
+              "M19": "C",
+              "MY19": "7-2011",
+              "M18": "C",
+              "MY18": "6-2011",
+              "M17": "U",
+              "MY17": "5-2011",
+              "M16": "U",
+              "MY16": "4-2011",
+              "M15": "U",
+              "MY15": "3-2011",
+              "M14": "U",
+              "MY14": "2-2011",
+              "M13": "U",
+              "MY13": "1-2011"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "MACYS/GEMB"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "1111****"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "01/09/2013"
+            },
+            "dateOpened": {
+              "TUC": "06/19/2002"
+            },
+            "dateReported": {
+              "TUC": "01/14/2013"
+            },
+            "highBalance": {
+              "TUC": 445
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 0
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "0"
+            },
+            "responsibility": {
+              "TUC": "Individual"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "Charge account"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": "01/31/2013"
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 800
+            },
+            "oldestYear": {
+              "Year": 2012
+            },
+            "PaymentHistory-TUC": {
+              "M36": "C",
+              "MY36": "12-2012",
+              "M35": "C",
+              "MY35": "11-2012",
+              "M34": "C",
+              "MY34": "10-2012",
+              "M33": "U",
+              "MY33": "9-2012",
+              "M32": "U",
+              "MY32": "8-2012",
+              "M31": "U",
+              "MY31": "7-2012",
+              "M30": "U",
+              "MY30": "6-2012",
+              "M29": "C",
+              "MY29": "5-2012",
+              "M28": "C",
+              "MY28": "4-2012",
+              "M27": "U",
+              "MY27": "3-2012",
+              "M26": "U",
+              "MY26": "2-2012",
+              "M25": "U",
+              "MY25": "1-2012",
+              "M24": "U",
+              "MY24": "12-2011",
+              "M23": "U",
+              "MY23": "11-2011",
+              "M22": "C",
+              "MY22": "10-2011",
+              "M21": "C",
+              "MY21": "9-2011",
+              "M20": "U",
+              "MY20": "8-2011",
+              "M19": "C",
+              "MY19": "7-2011",
+              "M18": "U",
+              "MY18": "6-2011",
+              "M17": "C",
+              "MY17": "5-2011",
+              "M16": "C",
+              "MY16": "4-2011",
+              "M15": "U",
+              "MY15": "3-2011",
+              "M14": "U",
+              "MY14": "2-2011",
+              "M13": "U",
+              "MY13": "1-2011"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "HECHT CO"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "11**"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "01/08/2013"
+            },
+            "dateOpened": {
+              "TUC": "11/23/1998"
+            },
+            "dateReported": {
+              "TUC": "01/11/2013"
+            },
+            "highBalance": {
+              "TUC": 437
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 0
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "0"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": ""
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": "01/25/2013"
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            },
+            "oldestYear": {
+              "Year": 2012
+            },
+            "PaymentHistory-TUC": {
+              "M36": "C",
+              "MY36": "12-2012",
+              "M35": "C",
+              "MY35": "11-2012",
+              "M34": "C",
+              "MY34": "10-2012",
+              "M33": "U",
+              "MY33": "9-2012",
+              "M32": "C",
+              "MY32": "8-2012",
+              "M31": "U",
+              "MY31": "7-2012",
+              "M30": "C",
+              "MY30": "6-2012",
+              "M29": "C",
+              "MY29": "5-2012",
+              "M28": "U",
+              "MY28": "4-2012",
+              "M27": "U",
+              "MY27": "3-2012",
+              "M26": "C",
+              "MY26": "2-2012",
+              "M25": "C",
+              "MY25": "1-2012",
+              "M24": "U",
+              "MY24": "12-2011",
+              "M23": "C",
+              "MY23": "11-2011",
+              "M22": "C",
+              "MY22": "10-2011",
+              "M21": "C",
+              "MY21": "9-2011",
+              "M20": "C",
+              "MY20": "8-2011",
+              "M19": "C",
+              "MY19": "7-2011",
+              "M18": "C",
+              "MY18": "6-2011",
+              "M17": "C",
+              "MY17": "5-2011",
+              "M16": "U",
+              "MY16": "4-2011",
+              "M15": "C",
+              "MY15": "3-2011",
+              "M14": "C",
+              "MY14": "2-2011",
+              "M13": "U",
+              "MY13": "1-2011"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "NORDSTROM"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "111**"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "08/21/2012"
+            },
+            "dateOpened": {
+              "TUC": "10/05/2006"
+            },
+            "dateReported": {
+              "TUC": "10/27/2012"
+            },
+            "highBalance": {
+              "TUC": 340
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 0
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "0"
+            },
+            "responsibility": {
+              "TUC": "Shared"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "Charge account"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            },
+            "oldestYear": {
+              "Year": 2012
+            },
+            "PaymentHistory-TUC": {
+              "M33": "C",
+              "MY33": "9-2012",
+              "M32": "C",
+              "MY32": "8-2012",
+              "M31": "C",
+              "MY31": "7-2012",
+              "M30": "C",
+              "MY30": "6-2012",
+              "M29": "C",
+              "MY29": "5-2012",
+              "M28": "U",
+              "MY28": "4-2012",
+              "M27": "U",
+              "MY27": "3-2012",
+              "M26": "C",
+              "MY26": "2-2012",
+              "M25": "U",
+              "MY25": "1-2012",
+              "M24": "C",
+              "MY24": "12-2011",
+              "M23": "U",
+              "MY23": "11-2011",
+              "M22": "U",
+              "MY22": "10-2011",
+              "M21": "C",
+              "MY21": "9-2011",
+              "M20": "C",
+              "MY20": "8-2011",
+              "M19": "C",
+              "MY19": "7-2011",
+              "M18": "C",
+              "MY18": "6-2011",
+              "M17": "C",
+              "MY17": "5-2011",
+              "M16": "U",
+              "MY16": "4-2011",
+              "M15": "U",
+              "MY15": "3-2011",
+              "M14": "C",
+              "MY14": "2-2011",
+              "M13": "U",
+              "MY13": "1-2011",
+              "M12": "C",
+              "MY12": "12-2010",
+              "M11": "U",
+              "MY11": "11-2010",
+              "M10": "U",
+              "MY10": "10-2010"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "DISCOVER FIN"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "11111033****"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "10/12/2009"
+            },
+            "dateOpened": {
+              "TUC": "03/16/2005"
+            },
+            "dateReported": {
+              "TUC": "01/15/2011"
+            },
+            "highBalance": {
+              "TUC": 0
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 0
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "0"
+            },
+            "responsibility": {
+              "TUC": "Individual"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "Credit Card"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "FIRST VA BK"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "11111001****"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "10/31/2010"
+            },
+            "dateOpened": {
+              "TUC": "01/25/1994"
+            },
+            "dateReported": {
+              "TUC": "10/31/2010"
+            },
+            "highBalance": {
+              "TUC": 0
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 0
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "0"
+            },
+            "responsibility": {
+              "TUC": "Individual"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "Credit Card"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": "09/15/2010"
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 5100
+            },
+            "oldestYear": {
+              "Year": 2010
+            },
+            "PaymentHistory-TUC": {
+              "M33": "C",
+              "MY33": "9-2010",
+              "M32": "C",
+              "MY32": "8-2010",
+              "M31": "C",
+              "MY31": "7-2010",
+              "M30": "C",
+              "MY30": "6-2010",
+              "M29": "C",
+              "MY29": "5-2010",
+              "M28": "C",
+              "MY28": "4-2010",
+              "M27": "C",
+              "MY27": "3-2010",
+              "M26": "C",
+              "MY26": "2-2010",
+              "M25": "C",
+              "MY25": "1-2010",
+              "M24": "C",
+              "MY24": "12-2009",
+              "M23": "C",
+              "MY23": "11-2009",
+              "M22": "C",
+              "MY22": "10-2009",
+              "M21": "C",
+              "MY21": "9-2009",
+              "M20": "C",
+              "MY20": "8-2009",
+              "M19": "C",
+              "MY19": "7-2009",
+              "M18": "C",
+              "MY18": "6-2009",
+              "M17": "C",
+              "MY17": "5-2009",
+              "M16": "C",
+              "MY16": "4-2009",
+              "M15": "C",
+              "MY15": "3-2009",
+              "M14": "C",
+              "MY14": "2-2009",
+              "M13": "C",
+              "MY13": "1-2009",
+              "M12": "C",
+              "MY12": "12-2008",
+              "M11": "C",
+              "MY11": "11-2008",
+              "M10": "C",
+              "MY10": "10-2008"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "BLOOM/FDSB"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "111"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "12/22/2007"
+            },
+            "dateOpened": {
+              "TUC": "12/14/1986"
+            },
+            "dateReported": {
+              "TUC": "12/22/2007"
+            },
+            "highBalance": {
+              "TUC": 0
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 0
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "0"
+            },
+            "responsibility": {
+              "TUC": "Individual"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": ""
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 200
+            },
+            "oldestYear": {
+              "Year": 2007
+            },
+            "PaymentHistory-TUC": {
+              "M35": "C",
+              "MY35": "11-2007",
+              "M34": "C",
+              "MY34": "10-2007",
+              "M33": "C",
+              "MY33": "9-2007",
+              "M32": "C",
+              "MY32": "8-2007",
+              "M31": "C",
+              "MY31": "7-2007",
+              "M30": "C",
+              "MY30": "6-2007",
+              "M29": "C",
+              "MY29": "5-2007",
+              "M28": "C",
+              "MY28": "4-2007",
+              "M27": "C",
+              "MY27": "3-2007",
+              "M26": "C",
+              "MY26": "2-2007",
+              "M25": "C",
+              "MY25": "1-2007",
+              "M24": "C",
+              "MY24": "12-2006",
+              "M23": "C",
+              "MY23": "11-2006",
+              "M22": "C",
+              "MY22": "10-2006",
+              "M21": "C",
+              "MY21": "9-2006",
+              "M20": "C",
+              "MY20": "8-2006",
+              "M19": "C",
+              "MY19": "7-2006",
+              "M18": "C",
+              "MY18": "6-2006",
+              "M17": "C",
+              "MY17": "5-2006",
+              "M16": "C",
+              "MY16": "4-2006",
+              "M15": "",
+              "MY15": "3-2006",
+              "M14": "",
+              "MY14": "2-2006",
+              "M13": "",
+              "MY13": "1-2006",
+              "M12": "",
+              "MY12": "12-2005"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "CHASE BK MD"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "111115091****"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "02/05/2006"
+            },
+            "dateOpened": {
+              "TUC": "07/25/2002"
+            },
+            "dateReported": {
+              "TUC": "12/21/2006"
+            },
+            "highBalance": {
+              "TUC": 82000
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 0
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "0"
+            },
+            "responsibility": {
+              "TUC": "Shared"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": ""
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "RIGGS BNK NA"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "111"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "12/04/2007"
+            },
+            "dateOpened": {
+              "TUC": "09/13/1991"
+            },
+            "dateReported": {
+              "TUC": "02/12/2008"
+            },
+            "highBalance": {
+              "TUC": 5000
+            },
+            "dateClosed": {
+              "TUC": "12/04/2007"
+            },
+            "monthlyPayment": {
+              "TUC": 0
+            },
+            "accountCondition": {
+              "TUC": "Closed"
+            },
+            "termMonths": {
+              "TUC": "0"
+            },
+            "responsibility": {
+              "TUC": "Joint"
+            },
+            "remarks": {
+              "TUC": "Closed"
+            },
+            "accountType": {
+              "TUC": "Line of credit"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "U"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": ""
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 5000
+            }
+          }
+        ],
+        "Installment": [
+          {
+            "accountName": {
+              "TUC": "SUNTRUST BK"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "111110000012****"
+            },
+            "currentBalance": {
+              "TUC": 10908
+            },
+            "dateAccountStatus": {
+              "TUC": "01/18/2013"
+            },
+            "dateOpened": {
+              "TUC": "09/14/2011"
+            },
+            "dateReported": {
+              "TUC": "01/18/2013"
+            },
+            "highBalance": {
+              "TUC": 13728
+            },
+            "dateClosed": {
+              "TUC": ""
+            },
+            "monthlyPayment": {
+              "TUC": 0
+            },
+            "accountCondition": {
+              "TUC": "Open"
+            },
+            "termMonths": {
+              "TUC": "0"
+            },
+            "responsibility": {
+              "TUC": "Individual"
+            },
+            "remarks": {
+              "TUC": ""
+            },
+            "accountType": {
+              "TUC": "Auto Loan"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "C"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": "01/01/2013"
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            },
+            "oldestYear": {
+              "Year": 2012
+            },
+            "PaymentHistory-TUC": {
+              "M36": "C",
+              "MY36": "12-2012",
+              "M35": "C",
+              "MY35": "11-2012",
+              "M34": "C",
+              "MY34": "10-2012",
+              "M33": "C",
+              "MY33": "9-2012",
+              "M32": "C",
+              "MY32": "8-2012",
+              "M31": "C",
+              "MY31": "7-2012",
+              "M30": "C",
+              "MY30": "6-2012",
+              "M29": "C",
+              "MY29": "5-2012",
+              "M28": "C",
+              "MY28": "4-2012",
+              "M27": "C",
+              "MY27": "3-2012",
+              "M26": "C",
+              "MY26": "2-2012",
+              "M25": "C",
+              "MY25": "1-2012",
+              "M24": "C",
+              "MY24": "12-2011",
+              "M23": "C",
+              "MY23": "11-2011",
+              "M22": "C",
+              "MY22": "10-2011",
+              "M21": "C",
+              "MY21": "9-2011",
+              "M20": "C",
+              "MY20": "8-2011",
+              "M19": "",
+              "MY19": "7-2011",
+              "M18": "",
+              "MY18": "6-2011",
+              "M17": "",
+              "MY17": "5-2011",
+              "M16": "",
+              "MY16": "4-2011",
+              "M15": "",
+              "MY15": "3-2011",
+              "M14": "",
+              "MY14": "2-2011",
+              "M13": "",
+              "MY13": "1-2011"
+            }
+          },
+          {
+            "accountName": {
+              "TUC": "PENTAGON FCU"
+            },
+            "originalCreditor": {
+              "TUC": ""
+            },
+            "accountNumber": {
+              "TUC": "11111**"
+            },
+            "currentBalance": {
+              "TUC": 0
+            },
+            "dateAccountStatus": {
+              "TUC": "02/10/2006"
+            },
+            "dateOpened": {
+              "TUC": "02/01/2006"
+            },
+            "dateReported": {
+              "TUC": "06/27/2011"
+            },
+            "highBalance": {
+              "TUC": 5571
+            },
+            "dateClosed": {
+              "TUC": "02/10/2006"
+            },
+            "monthlyPayment": {
+              "TUC": 354
+            },
+            "accountCondition": {
+              "TUC": "Closed"
+            },
+            "termMonths": {
+              "TUC": "17"
+            },
+            "responsibility": {
+              "TUC": "Maker"
+            },
+            "remarks": {
+              "TUC": "Closed"
+            },
+            "accountType": {
+              "TUC": "Auto Loan"
+            },
+            "late30Count": {
+              "TUC": 0
+            },
+            "late60Count": {
+              "TUC": 0
+            },
+            "late90Count": {
+              "TUC": 0
+            },
+            "PayStatus": {
+              "TUC": "U"
+            },
+            "CreditorName": {
+              "TUC": ""
+            },
+            "CreditorPhone": {
+              "TUC": ""
+            },
+            "CreditorAddress": {
+              "TUC": ""
+            },
+            "CreditorCity": {
+              "TUC": ""
+            },
+            "CreditorState": {
+              "TUC": ""
+            },
+            "CreditorZip": {
+              "TUC": ""
+            },
+            "dateLastPayment": {
+              "TUC": "02/04/2006"
+            },
+            "amountPastDue": {
+              "TUC": 0
+            },
+            "CreditLimit": {
+              "TUC": 0
+            }
+          }
+        ],
+        "CreditCard": [],
+        "Collection": [],
+        "Other": [],
+        "Unknown": []
+      }
+    }
+  },
+  "VantageScores": {
+    "VANTAGE_SCORE_TU": {
+      "expirationDate": "2016-04-06-07:00",
+      "ScoreValue": {
+        "TRANS_UNION": 990
+      },
+      "Grade": {
+        "TRANS_UNION": "A"
+      },
+      "PopulationRank": {
+        "TRANS_UNION": 100
+      },
+      "ScoreDate": {
+        "TRANS_UNION": "04/06/2015"
+      },
+      "NegativeFactors": {
+        "TRANS_UNION": []
+      }
+    }
+  },
+  "Trending": {}
+}

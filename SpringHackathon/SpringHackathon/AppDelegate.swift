@@ -8,6 +8,8 @@
 
 import UIKit
 import CoreData
+import Parse
+import Bolts
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        Parse.setApplicationId("qKIHdlKeCygL3JN8lEdLARoZ9gRcm4yORpcixBPI", clientKey: "SpK6RK6qyOVGfyqvyZ8HDRA3ZMDY7NPLZXV94uGD")
+        
         return true
     }
 
