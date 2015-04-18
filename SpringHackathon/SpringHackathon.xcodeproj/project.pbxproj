@@ -356,6 +356,8 @@
 				DBE2EB9E1AE1FC4A0091BBCE /* TransunionModel.swift in Sources */,
 				A09774441AE0344F00ED69CB /* SpringHackathon.xcdatamodeld in Sources */,
 				508F32DF1AE23A6E0041BA2B /* LoanModel.swift in Sources */,
+				DBE2EBA51AE2364E0091BBCE /* TabBarController.swift in Sources */,
+				DBE2EBA71AE2370F0091BBCE /* LoanEstimatorViewController.swift in Sources */,
 				DBE2EB991AE1F58F0091BBCE /* SwiftyJSON.swift in Sources */,
 				A09774411AE0344F00ED69CB /* AppDelegate.swift in Sources */,
 			);

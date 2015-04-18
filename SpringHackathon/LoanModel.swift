@@ -20,6 +20,9 @@ class LoanCalculator {
         return (rate + (rate/(exp-1))) * principal
     }
     
+    func calcInterestPaid(monthly: Double, months: Double, principal: Double) -> Double {
+        return monthly * months - principal
+    }
     
 }
 

@@ -36,6 +36,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITabBar.appearance().barTintColor = blueColor
         UITabBar.appearance().tintColor = UIColor.whiteColor()
         
+        var loan = Loan()
+        
+        loan.range = "700_759"
+        loan.state = "AL"
+        loan.type = "30_Year_Fixed"
+        loan.score = 710
+        
+        var parse = LoanDataParser(loan: loan)
+        println(loan.apr)
+        
+        
         return true
     }
 
