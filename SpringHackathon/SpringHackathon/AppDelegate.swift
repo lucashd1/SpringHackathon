@@ -20,9 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var loader = JsonLoader()
         loader.loadJson()
         
-        var loan: Loan?
+        var loan: Loan!
         if let user = loader.user {
             loan = Loan(score: user.score, state: user.state)
+            loan.total = user.total
         }
         
         if let loan = loan {

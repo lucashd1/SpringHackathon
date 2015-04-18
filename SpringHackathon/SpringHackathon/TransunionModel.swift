@@ -13,6 +13,7 @@ public class User {
     var name: String = ""
     var state: String = ""
     var score: Int = 0
+    var total: Float = 0
 }
 
 public class JsonLoader {
@@ -30,6 +31,7 @@ public class JsonLoader {
                 user?.name = json["Reports"]["SINGLE_REPORT_TU"]["Name"]["TUC"].stringValue
                 user?.score = json["Reports"]["SINGLE_REPORT_TU"]["CreditScore"]["TUC"].intValue
                 user?.state = splitAddress[splitAddress.count - 2]
+                user?.total = json["Reports"]["SINGLE_REPORT_TU"]["TotalMonthlyPayments"]["TUC"].floatValue
             }
         }
     }

@@ -21,6 +21,7 @@ class Loan {
     var monthly: Float = 0
     var estimated = 0
     var income: Float = 0
+    var total : Float = 0
     
     init(score: Int, state: String) {
         self.score = score
@@ -30,59 +31,104 @@ class Loan {
     
     func calcLoanRecommendation() {
         if type == "Auto" {
+            var maxdebt: Float = 0
+            var maxDTI: Float = 0
+            let avg: Float = 471*self.months
             if score >= 720 {
                 self.range = "720_850"
-                self.max = 200000
+                maxDTI = 0.4
+                maxdebt = maxDTI * self.income
             }
             else if score >= 690 {
                 self.range = "690_719"
-                self.max = 100000
+                maxDTI = 0.3
+                maxdebt = maxDTI * self.income
             }
             else if score >= 660 {
                 self.range = "660_689"
-                self.max = 50000
+                maxDTI = 0.3
+                maxdebt = maxDTI * self.income
             }
             else if score >= 620 {
                 self.range = "620_659"
-                self.max = 40000
+                maxDTI = 0.3
+                maxdebt = maxDTI * self.income
             }
             else if score >= 590 {
                 self.range = "590_619"
-                self.max = 20000
+                maxDTI = 0.17
+                maxdebt = maxDTI * self.income
             }
             else {
                 self.range = "500_589"
-                self.max = 10000
+                maxDTI = 0.15
+                maxdebt = maxDTI * self.income
             }
             self.min = 1000
+            let curDTI = self.total / self.income
+            let maxMonthly = (maxDTI * self.income) - total
+            self.max = maxMonthly * self.months
+            self.max = round(self.max, rnd: 500)
+            if self.max < avg {
+                self.max = avg
+            }
         }
         else {
+            var maxdebt: Float = 0
+            var maxDTI: Float = 0
+            let avg: Float = 1061*self.months
             if score >= 760 {
                 self.range = "760_850"
-                self.max = 10000000
+                maxDTI = 0.4
+                maxdebt = maxDTI * self.income
             }
             else if score >= 700 {
                 self.range = "700_759"
-                self.max = 5000000
+                maxDTI = 0.4
+                maxdebt = maxDTI * self.income
             }
             else if score >= 680 {
                 self.range = "680_699"
-                self.max = 2000000
+                maxDTI = 0.3
+                maxdebt = maxDTI * self.income
             }
             else if score >= 660 {
                 self.range = "660_679"
-                self.max = 1000000
+                maxDTI = 0.3
+                maxdebt = maxDTI * self.income
             }
             else if score >= 640 {
                 self.range = "640_659"
-                self.max = 800000
+                maxDTI = 0.25
+                maxdebt = maxDTI * self.income
             }
             else {
                 self.range = "620_639"
-                self.max = 500000
+                maxDTI = 0.25
+                let maxdebt = maxDTI * self.income
             }
-            self.min = 50000
+            self.min = 100000
+            let curDTI = self.total / self.income
+            let maxMonthly = (maxDTI * self.income) - total
+            self.max = maxMonthly * self.months
+            self.max = round(self.max, rnd: 1000)
+            if self.max < avg {
+                self.max = avg
+            }
         }
+    }
+    
+    func round(val: Float, rnd: Float) -> Float {
+        var res: Float = val
+        let mod = res % rnd
+        let mid = rnd / 2
+        if mod < mid {
+            res = res - mod
+        }
+        else {
+            res = res + (rnd - mod)
+        }
+        return res
     }
     
     func calcAPR() {
