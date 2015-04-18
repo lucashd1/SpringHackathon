@@ -22,6 +22,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var loader = JsonLoader()
         loader.loadJson()
         
+        var loan: Loan?
+        if let user = loader.user {
+            loan = Loan(score: user.score, state: user.state)
+        }
+        
+        if let loan = loan {
+            let tabBar = self.window?.rootViewController as TabBarController
+            let estView = tabBar.viewControllers?[4].topViewController as LoanEstimatorViewController
+            estView.loan = loan
+        }
+        
+        
         if let tabBarController = window?.rootViewController as? TabBarController {
             tabBarController.user = loader.user
         }
@@ -35,21 +47,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().barTintColor = blueColorSelected
         UITabBar.appearance().barTintColor = blueColor
         UITabBar.appearance().tintColor = UIColor.whiteColor()
-        
-        var loan = Loan(score: 600, state: "CA", type: "Auto", loan: "60_Month_New")
-        println(loan.score)
-        println(loan.state)
-        println(loan.type)
-        println(loan.loan)
-        println(loan.range)
-        
-        var parse = LoanDataParser(loan: loan)
-        parse.loadJson()
-        println(loan.apr)
-        
-        var calc = LoanCalculator()
-        calc.loan = loan
-        println(calc.calcMonthly(calc.calcRate(loan.apr), months: 60, principal: 1000000))
         
         
         return true
@@ -80,7 +77,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     // MARK: - Core Data stack
-
     lazy var applicationDocumentsDirectory: NSURL = {
         // The directory the application uses to store the Core Data store file. This code uses a directory named "lucashd.SpringHackathon" in the application's documents Application Support directory.
         let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
