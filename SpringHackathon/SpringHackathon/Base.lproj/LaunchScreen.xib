@@ -11,8 +11,8 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="TULogo_reverse" translatesAutoresizingMaskIntoConstraints="NO" id="dNP-RU-4zK">
-                    <rect key="frame" x="108" y="180" width="264" height="120"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="tu_logo" translatesAutoresizingMaskIntoConstraints="NO" id="dNP-RU-4zK">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" red="0.25882352941176473" green="0.69803921568627447" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -26,6 +26,6 @@
         </view>
     </objects>
     <resources>
-        <image name="TULogo_reverse" width="1080" height="1920"/>
+        <image name="tu_logo" width="750" height="1334"/>
     </resources>
 </document>
