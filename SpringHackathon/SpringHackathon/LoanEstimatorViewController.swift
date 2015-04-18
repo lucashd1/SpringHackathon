@@ -38,9 +38,12 @@ class LoanEstimatorViewController: UIViewController {
     
     func updateLoanRecommendation() {
         self.loan.calcLoanRecommendation()
-        
-        self.minLoan.text = "$\(Int(self.loan.min))"
-        self.maxLoan.text = "$\(Int(self.loan.max))"
+        var f = self.loan.min / 1000
+        var r = self.loan.min % 1000
+        self.minLoan.text = "$\(Int(f))k"
+        f = self.loan.max / 1000
+        r = self.loan.max % 1000
+        self.maxLoan.text = "$\(Int(f))k"
         slider.minimumValue = self.loan.min
         slider.maximumValue = self.loan.max
         slider.value = slider.minimumValue
@@ -163,7 +166,9 @@ class LoanEstimatorViewController: UIViewController {
         loanTerm.setTitleTextAttributes(attributes, forState: UIControlState.Normal)
         loanTerm.setTitleTextAttributes(attributes, forState: UIControlState.Highlighted)
         loanTerm.setTitleTextAttributes(attributes, forState: UIControlState.Selected)
-
+        self.principal.font = self.principal.font.fontWithSize(22)
+        self.apr.font = self.apr.font.fontWithSize(22)
+        self.monthlyPayment.font = self.monthlyPayment.font.fontWithSize(22)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
