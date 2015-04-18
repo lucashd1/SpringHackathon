@@ -8,13 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DashboardViewController: UIViewController {
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var score: UILabel!
+    
+    var user: User?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        var loader = JsonLoader()
-        loader.loadJson()
+        
+        
+
+        name.text = user!.name
+        score.text = "\(user!.score)"
     }
 
     override func didReceiveMemoryWarning() {

@@ -17,7 +17,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {        
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        var loader = JsonLoader()
+        loader.loadJson()
+        
+        if let tabBarControllers = window?.rootViewController as? UITabBarController {
+            if let navigationControllers = tabBarControllers.viewControllers as? [UINavigationController] {
+                if let dashboardController = navigationControllers[0].topViewController as? DashboardViewController {
+                    dashboardController.user = loader.user
+                }
+            }
+        }
+        
+        application.setStatusBarStyle(UIStatusBarStyle.LightContent, animated: false)
+        
+        if let font = UIFont(name: "IntroSemiBoldCaps", size: 18) {
+            UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: font, NSForegroundColorAttributeName: UIColor.whiteColor()]
+        }
+        
+        UINavigationBar.appearance().barTintColor = UIColor(red: 0.0/255, green: 166.0/255, blue: 202.0/255, alpha: 1.0)
+        
         return true
     }
 
