@@ -102,7 +102,7 @@
         <scene sceneID="vbb-NN-fYe">
             <objects>
                 <navigationController id="Nus-D9-o3V" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="unlock" id="DW5-Wg-hK7"/>
+                    <tabBarItem key="tabBarItem" title="" image="nav4" selectedImage="nav4_active" id="DW5-Wg-hK7"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WQW-Et-bBi">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -119,7 +119,7 @@
         <scene sceneID="UVa-FI-0m7">
             <objects>
                 <navigationController id="01o-IY-eiF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="tu" id="N2t-Tk-hgW"/>
+                    <tabBarItem key="tabBarItem" title="" image="nav1" selectedImage="nav1_active" id="N2t-Tk-hgW"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="h7d-9V-kHb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -136,7 +136,7 @@
         <scene sceneID="Y7Z-Ni-1Z0">
             <objects>
                 <navigationController id="fnC-6Z-kpz" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="bell" id="Xxy-9y-NQ9"/>
+                    <tabBarItem key="tabBarItem" title="" image="nav3" selectedImage="nav3_active" id="Xxy-9y-NQ9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="z09-PH-Yx5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -183,7 +183,7 @@
         <scene sceneID="M9C-Wl-Wow">
             <objects>
                 <navigationController id="WpM-rc-BDI" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="calculator" id="aF6-m4-n7S"/>
+                    <tabBarItem key="tabBarItem" title="" image="nav5" selectedImage="nav5_active" id="aF6-m4-n7S"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9Tp-2o-lG4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -357,14 +357,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="What is your monthly income?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rqz-5h-tQ0">
-                                <rect key="frame" x="183" y="339" width="233" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your monthly income?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rqz-5h-tQ0">
+                                <rect key="frame" x="183" y="448" width="233" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="My8-dL-Fpg">
-                                <rect key="frame" x="211" y="463" width="226" height="38"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="My8-dL-Fpg">
+                                <rect key="frame" x="159" y="468" width="283" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="283" id="EHn-uH-GK5"/>
                                     <constraint firstAttribute="height" constant="41" id="bXF-MX-BAs"/>
@@ -381,8 +381,8 @@
                                     <action selector="next:" destination="JNL-LK-koS" eventType="touchUpInside" id="LZ5-on-lLE"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ex. 4,000" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="BgZ-Pm-uuk">
-                                <rect key="frame" x="197" y="368" width="219" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ex. 4,000" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="BgZ-Pm-uuk">
+                                <rect key="frame" x="191" y="477" width="219" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="219" id="FIV-PZ-uUA"/>
                                 </constraints>
@@ -393,28 +393,28 @@
                                     <action selector="incomeChanged:" destination="JNL-LK-koS" eventType="editingDidEnd" id="ORs-es-ekz"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="In order to give you more accurate loan" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DY3-Q0-6Co">
-                                <rect key="frame" x="149" y="219" width="301" height="32"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In order to give you more accurate loan" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DY3-Q0-6Co">
+                                <rect key="frame" x="149" y="333" width="301" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="recommendations please enter your" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KB6-El-9q0">
-                                <rect key="frame" x="161" y="259" width="276" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="monthly income." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvi-ta-Q2x">
-                                <rect key="frame" x="235" y="288" width="128" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="recommendations please enter your" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KB6-El-9q0">
+                                <rect key="frame" x="162" y="360" width="276" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="smartloans" translatesAutoresizingMaskIntoConstraints="NO" id="GlT-Jz-nbm">
-                                <rect key="frame" x="197" y="72" width="240" height="128"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="monthly income." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvi-ta-Q2x">
+                                <rect key="frame" x="236" y="387" width="128" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smartloans" translatesAutoresizingMaskIntoConstraints="NO" id="GlT-Jz-nbm">
+                                <rect key="frame" x="142" y="112" width="316" height="173"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kq2-7r-WB0">
-                                <rect key="frame" x="183" y="372" width="10" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kq2-7r-WB0">
+                                <rect key="frame" x="173" y="480" width="10" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -548,7 +548,7 @@
         <scene sceneID="VMB-Io-sra">
             <objects>
                 <navigationController id="ngC-0v-zPh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="creditreport" id="0rN-mc-h5M"/>
+                    <tabBarItem key="tabBarItem" title="" image="nav2" selectedImage="nav2_active" id="0rN-mc-h5M"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="RwM-QV-IbO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -586,22 +586,27 @@
     </scenes>
     <resources>
         <image name="alerts" width="748" height="1062"/>
-        <image name="bell" width="30" height="30"/>
         <image name="button_click_dashboard" width="566" height="84"/>
         <image name="button_click_income" width="566" height="84"/>
         <image name="button_dashboard" width="566" height="84"/>
         <image name="button_income" width="566" height="84"/>
-        <image name="calculator" width="30" height="30"/>
-        <image name="creditreport" width="30" height="30"/>
         <image name="dashboard_background" width="750" height="421"/>
         <image name="dashboard_selector" width="520" height="93"/>
         <image name="dots" width="130" height="20"/>
         <image name="identity_protection" width="750" height="1061"/>
         <image name="info" width="25" height="25"/>
+        <image name="nav1" width="150" height="118"/>
+        <image name="nav1_active" width="150" height="118"/>
+        <image name="nav2" width="150" height="118"/>
+        <image name="nav2_active" width="150" height="118"/>
+        <image name="nav3" width="150" height="118"/>
+        <image name="nav3_active" width="150" height="118"/>
+        <image name="nav4" width="150" height="118"/>
+        <image name="nav4_active" width="150" height="118"/>
+        <image name="nav5" width="150" height="118"/>
+        <image name="nav5_active" width="150" height="118"/>
         <image name="settings" width="30" height="30"/>
         <image name="slider_content" width="453" height="187"/>
         <image name="smartloans" width="316" height="173"/>
-        <image name="tu" width="30" height="30"/>
-        <image name="unlock" width="30" height="30"/>
     </resources>
 </document>
