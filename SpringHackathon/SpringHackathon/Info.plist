@@ -6,9 +6,8 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>IntroRegular.ttf</string>
 		<string>IntroSemiBoldCaps.ttf</string>
-		<string>IntroRegularCaps.ttf</string>
+		<string>IntroRegular.ttf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>

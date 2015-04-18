@@ -42,11 +42,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: font, NSForegroundColorAttributeName: UIColor.whiteColor()]
         }
         
+        if let font = UIFont(name: "IntroRegular", size: 17) {
+            UILabel.appearance().font = font
+        }
+        println()
+        
         UINavigationBar.appearance().barTintColor = blueColorSelected
         UINavigationBar.appearance().tintColor = UIColor.whiteColor()
         UITabBar.appearance().barTintColor = blueColor
         UITabBar.appearance().tintColor = UIColor.whiteColor()
-        println(UIFont.familyNames())
+
         return true
     }
 
