@@ -108,7 +108,7 @@ class LoanEstimatorViewController: UIViewController {
                 println("error")
             }
         }
-        
+        self.updateLoanRecommendation()
         self.updateValues()
     }
     

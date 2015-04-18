@@ -8,6 +8,12 @@
 
 import UIKit
 
+extension String {
+    var floatValue: Float {
+        return (self as NSString).floatValue
+    }
+}
+
 class IncomeViewController: UIViewController {
     @IBOutlet weak var income: UITextField!
     
@@ -29,7 +35,7 @@ class IncomeViewController: UIViewController {
     @IBAction func next(sender: AnyObject) {
         if let inc = self.income.text {
             if inc.isEmpty == false {
-                loan.income = Float(income.text.toInt()!)
+                loan.income = income.text.floatValue
                 self.performSegueWithIdentifier("showLoanEstimator", sender: self)
             }
         }
