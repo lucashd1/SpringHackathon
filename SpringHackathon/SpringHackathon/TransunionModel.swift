@@ -12,6 +12,7 @@ public class User {
     var date: String = ""
     var name: String = ""
     var score: Int = 0
+    // Store/parse state
 }
 
 public class JsonLoader {
@@ -21,7 +22,6 @@ public class JsonLoader {
         if let path = NSBundle.mainBundle().pathForResource("BellJSON", ofType: "json") {
             if let data = NSData(contentsOfFile: path) {
                 let json = JSON(data: data, options: NSJSONReadingOptions.AllowFragments, error: nil)
-                var reports = json["Reports"]["SINGLE_REPORT_TU"]["CreditScore"]["TUC"]
 
                 user = User()
                 user?.date = json["Reports"]["SINGLE_REPORT_TU"]["ReportDate"]["TUC"].stringValue
