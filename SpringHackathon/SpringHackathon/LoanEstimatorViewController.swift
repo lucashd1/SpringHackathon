@@ -154,6 +154,16 @@ class LoanEstimatorViewController: UIViewController {
         
         let backButton = UIBarButtonItem(title: "", style: UIBarButtonItemStyle.Bordered, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backButton
+        
+        let attributes = [NSForegroundColorAttributeName:UIColor(red: 92/255, green: 82/255, blue: 87/255, alpha: 1), NSFontAttributeName: UIFont(name: "IntroSemiBoldCaps", size: 14)!]
+        
+        selector.setTitleTextAttributes(attributes, forState: UIControlState.Normal)
+        selector.setTitleTextAttributes(attributes, forState: UIControlState.Highlighted)
+        selector.setTitleTextAttributes(attributes, forState: UIControlState.Selected)
+        loanTerm.setTitleTextAttributes(attributes, forState: UIControlState.Normal)
+        loanTerm.setTitleTextAttributes(attributes, forState: UIControlState.Highlighted)
+        loanTerm.setTitleTextAttributes(attributes, forState: UIControlState.Selected)
+
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

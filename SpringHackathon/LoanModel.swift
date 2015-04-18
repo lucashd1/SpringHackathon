@@ -68,10 +68,10 @@ class Loan {
             let curDTI = self.total / self.income
             let maxMonthly = (maxDTI * self.income) - total
             self.max = maxMonthly * self.months
-            self.max = round(self.max, rnd: 500)
             if self.max < avg {
                 self.max = avg
             }
+            self.max = round(self.max, rnd: 500)
         }
         else {
             var maxdebt: Float = 0
@@ -111,10 +111,10 @@ class Loan {
             let curDTI = self.total / self.income
             let maxMonthly = (maxDTI * self.income) - total
             self.max = maxMonthly * self.months
-            self.max = round(self.max, rnd: 1000)
             if self.max < avg {
                 self.max = avg
             }
+            self.max = round(self.max, rnd: 1000)
         }
     }
     
@@ -126,7 +126,7 @@ class Loan {
             res = res - mod
         }
         else {
-            res = res + (rnd - mod)
+            res = res + rnd - mod
         }
         return res
     }
