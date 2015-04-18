@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		508F32DF1AE23A6E0041BA2B /* LoanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508F32DE1AE23A6E0041BA2B /* LoanModel.swift */; };
 		A09774411AE0344F00ED69CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09774401AE0344F00ED69CB /* AppDelegate.swift */; };
 		A09774441AE0344F00ED69CB /* SpringHackathon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A09774421AE0344F00ED69CB /* SpringHackathon.xcdatamodeld */; };
 		A09774461AE0344F00ED69CB /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09774451AE0344F00ED69CB /* DashboardViewController.swift */; };
@@ -49,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		508F32D61AE22D040041BA2B /* LoanJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LoanJSON.json; sourceTree = "<group>"; };
+		508F32DE1AE23A6E0041BA2B /* LoanModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoanModel.swift; path = ../LoanModel.swift; sourceTree = "<group>"; };
 		A097743B1AE0344F00ED69CB /* SpringHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A097743F1AE0344F00ED69CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A09774401AE0344F00ED69CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -184,6 +187,7 @@
 				DBE2EB731AE1CE8E0091BBCE /* BellJSON.json */,
 				DBE2EB741AE1CE8E0091BBCE /* ChildsJSON.json */,
 				DBE2EB751AE1CE8E0091BBCE /* WoodenJSON.json */,
+				508F32D61AE22D040041BA2B /* LoanJSON.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -221,6 +225,7 @@
 		DBE2EB9B1AE1FBDB0091BBCE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				508F32DE1AE23A6E0041BA2B /* LoanModel.swift */,
 				DBE2EB9D1AE1FC4A0091BBCE /* TransunionModel.swift */,
 			);
 			name = Model;
@@ -350,8 +355,7 @@
 				A09774461AE0344F00ED69CB /* DashboardViewController.swift in Sources */,
 				DBE2EB9E1AE1FC4A0091BBCE /* TransunionModel.swift in Sources */,
 				A09774441AE0344F00ED69CB /* SpringHackathon.xcdatamodeld in Sources */,
-				DBE2EBA51AE2364E0091BBCE /* TabBarController.swift in Sources */,
-				DBE2EBA71AE2370F0091BBCE /* LoanEstimatorViewController.swift in Sources */,
+				508F32DF1AE23A6E0041BA2B /* LoanModel.swift in Sources */,
 				DBE2EB991AE1F58F0091BBCE /* SwiftyJSON.swift in Sources */,
 				A09774411AE0344F00ED69CB /* AppDelegate.swift in Sources */,
 			);
@@ -480,6 +484,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -494,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
