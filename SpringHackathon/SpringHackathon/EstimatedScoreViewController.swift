@@ -11,11 +11,11 @@ import UIKit
 class EstimateScoreViewController: UIViewController {
     @IBOutlet weak var estimatedScoreLabel: UILabel!
     
-    var estimatedScore: Int?
+    var loan: Loan!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        estimatedScoreLabel.text = "\(estimatedScore)"
+        estimatedScoreLabel.text = "\(self.loan.estimated)"
     }
 }

@@ -18,6 +18,8 @@ class Loan {
     var min : Float = 0
     var max : Float = 0
     var months: Float = 36
+    var monthly: Float = 0
+    var estimated = 0
     
     init(score: Int, state: String) {
         self.score = score
@@ -98,11 +100,46 @@ class Loan {
     func calcMonthly(principal: Float) -> Float {
         let rate = calcRate()
         let exp = pow(1+rate, self.months)
-        return (rate + (rate/(exp-1))) * principal
+        self.monthly = (rate + (rate/(exp-1))) * principal
+        return self.monthly
     }
     
     func calcInterestPaid(principal: Float) -> Float {
         let monthly = calcMonthly(principal)
         return monthly * self.months - principal
+    }
+    
+    func calcEstimated() {
+        if self.type == "Auto" {
+            self.estimated = self.score - 10
+        }
+        else {
+            self.estimated = self.score - 15
+        }
+        var mnths = 12
+        var additional = 0;
+        if self.monthly > 10000 {
+            additional = 50
+        }
+        else if self.monthly > 5000 {
+            additional = 30
+        }
+        else if self.monthly > 1000 {
+            additional = 20
+        }
+        else {
+            additional = 15
+        }
+        while(mnths != 0) {
+            self.estimated += additional
+            mnths = mnths - 1
+        }
+        if self.estimated > 990 {
+            self.estimated = 990
+        }
+        if self.estimated < 501 {
+            self.estimated = 501
+        }
+        println(self.estimated)
     }
 }
