@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		508F32DF1AE23A6E0041BA2B /* LoanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508F32DE1AE23A6E0041BA2B /* LoanModel.swift */; };
+		508F32E11AE24A850041BA2B /* EstimatedScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508F32E01AE24A850041BA2B /* EstimatedScoreViewController.swift */; };
 		A09774411AE0344F00ED69CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09774401AE0344F00ED69CB /* AppDelegate.swift */; };
 		A09774441AE0344F00ED69CB /* SpringHackathon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A09774421AE0344F00ED69CB /* SpringHackathon.xcdatamodeld */; };
 		A09774461AE0344F00ED69CB /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09774451AE0344F00ED69CB /* DashboardViewController.swift */; };
@@ -53,6 +54,7 @@
 /* Begin PBXFileReference section */
 		508F32D61AE22D040041BA2B /* LoanJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LoanJSON.json; sourceTree = "<group>"; };
 		508F32DE1AE23A6E0041BA2B /* LoanModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoanModel.swift; path = ../LoanModel.swift; sourceTree = "<group>"; };
+		508F32E01AE24A850041BA2B /* EstimatedScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstimatedScoreViewController.swift; sourceTree = "<group>"; };
 		A097743B1AE0344F00ED69CB /* SpringHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A097743F1AE0344F00ED69CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A09774401AE0344F00ED69CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				A09774451AE0344F00ED69CB /* DashboardViewController.swift */,
+				508F32E01AE24A850041BA2B /* EstimatedScoreViewController.swift */,
 				DBE2EBA61AE2370F0091BBCE /* LoanEstimatorViewController.swift */,
 				DBE2EBA41AE2364E0091BBCE /* TabBarController.swift */,
 			);
@@ -355,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A09774461AE0344F00ED69CB /* DashboardViewController.swift in Sources */,
+				508F32E11AE24A850041BA2B /* EstimatedScoreViewController.swift in Sources */,
 				DBE2EB9E1AE1FC4A0091BBCE /* TransunionModel.swift in Sources */,
 				A09774441AE0344F00ED69CB /* SpringHackathon.xcdatamodeld in Sources */,
 				508F32DF1AE23A6E0041BA2B /* LoanModel.swift in Sources */,
