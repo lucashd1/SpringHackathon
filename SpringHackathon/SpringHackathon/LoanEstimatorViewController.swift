@@ -151,6 +151,9 @@ class LoanEstimatorViewController: UIViewController {
         
         self.updateLoanRecommendation()
         self.updateValues()
+        
+        let backButton = UIBarButtonItem(title: "", style: UIBarButtonItemStyle.Bordered, target: nil, action: nil)
+        self.navigationItem.backBarButtonItem = backButton
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

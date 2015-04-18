@@ -20,6 +20,7 @@ class Loan {
     var months: Float = 36
     var monthly: Float = 0
     var estimated = 0
+    var income: Float = 0
     
     init(score: Int, state: String) {
         self.score = score

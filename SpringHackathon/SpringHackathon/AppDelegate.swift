@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if let loan = loan {
             let tabBar = self.window?.rootViewController as! TabBarController
-            let estView = tabBar.viewControllers?[4].topViewController as! LoanEstimatorViewController
+            let estView = tabBar.viewControllers?[4].topViewController as! IncomeViewController
             estView.loan = loan
         }
         
