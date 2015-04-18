@@ -24,10 +24,10 @@ class Loan {
     init(score: Int, state: String) {
         self.score = score
         self.state = state
-        calcRest()
+        calcLoanRecommendation()
     }
     
-    func calcRest() {
+    func calcLoanRecommendation() {
         if type == "Auto" {
             if score >= 720 {
                 self.range = "720_850"

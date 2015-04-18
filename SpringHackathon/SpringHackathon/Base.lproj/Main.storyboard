@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="721-Gf-wjj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="721-Gf-wjj">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -100,7 +100,7 @@
             </objects>
             <point key="canvasLocation" x="-994" y="1382"/>
         </scene>
-        <!--View Controller-->
+        <!--Alerts-->
         <scene sceneID="c1L-uQ-ZZr">
             <objects>
                 <viewController id="pfY-bk-czu" sceneMemberID="viewController">
@@ -111,9 +111,20 @@
                     <view key="view" contentMode="scaleToFill" id="45e-db-5My">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alerts" translatesAutoresizingMaskIntoConstraints="NO" id="Wei-J7-zvo">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wei-J7-zvo" firstAttribute="top" secondItem="mZS-tM-48H" secondAttribute="bottom" id="RTN-3m-ZXi"/>
+                            <constraint firstItem="Wei-J7-zvo" firstAttribute="leading" secondItem="45e-db-5My" secondAttribute="leadingMargin" constant="-16" id="TGX-cH-car"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wei-J7-zvo" secondAttribute="trailing" constant="-16" id="sC7-NW-aKN"/>
+                            <constraint firstItem="uZl-f8-Ml5" firstAttribute="top" secondItem="Wei-J7-zvo" secondAttribute="bottom" id="zlO-7M-Vmd"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="kzq-87-Lcv"/>
+                    <navigationItem key="navigationItem" title="Alerts" id="kzq-87-Lcv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MWy-tD-oBJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -171,8 +182,8 @@
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Max" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sX6-GU-8SI">
-                                <rect key="frame" x="411" y="244" width="33" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="411" y="244" width="104" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -236,25 +247,16 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Min" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5CY-Ur-4AY">
                                 <rect key="frame" x="158" y="244" width="29" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Principal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMc-mY-5PS">
-                                <rect key="frame" x="267" y="244" width="67" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="261" y="244" width="79" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7s7-4l-RUi">
-                                <rect key="frame" x="272" y="463" width="65" height="30"/>
-                                <state key="normal" title="Calculate">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="calculate:" destination="6mu-Hn-NU7" eventType="touchUpInside" id="hQu-g8-K9g"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -266,7 +268,6 @@
                             <constraint firstAttribute="centerX" secondItem="qvD-HZ-tXx" secondAttribute="centerX" id="AeV-vK-3zv"/>
                             <constraint firstItem="eKR-dR-f1R" firstAttribute="leading" secondItem="7Zf-Xu-Bec" secondAttribute="leadingMargin" constant="30" id="Bph-q1-cML"/>
                             <constraint firstItem="w49-nt-KBM" firstAttribute="leading" secondItem="BWW-Hu-5Tn" secondAttribute="trailing" constant="15" id="E4K-FT-4XW"/>
-                            <constraint firstAttribute="centerX" secondItem="7s7-4l-RUi" secondAttribute="centerX" id="HUY-5C-hDR"/>
                             <constraint firstItem="b8H-j2-5KE" firstAttribute="leading" secondItem="eKR-dR-f1R" secondAttribute="trailing" constant="15" id="Imv-BJ-ug5"/>
                             <constraint firstItem="N0U-lb-HdZ" firstAttribute="leading" secondItem="5vt-an-ZBW" secondAttribute="trailing" constant="53" id="JrI-78-tKf"/>
                             <constraint firstAttribute="centerX" secondItem="N0U-lb-HdZ" secondAttribute="centerX" id="Mn9-NG-VNa"/>
@@ -326,7 +327,7 @@
             </objects>
             <point key="canvasLocation" x="572" y="2208"/>
         </scene>
-        <!--View Controller-->
+        <!--Credit Report-->
         <scene sceneID="yLF-l3-AYD">
             <objects>
                 <viewController id="lD8-yK-YsW" sceneMemberID="viewController">
@@ -339,13 +340,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="VKC-dC-oFK"/>
+                    <navigationItem key="navigationItem" title="Credit Report" id="VKC-dC-oFK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3fQ-Mh-AZk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-214" y="-1004"/>
         </scene>
-        <!--View Controller-->
+        <!--Identity Protection-->
         <scene sceneID="Phw-cA-DeJ">
             <objects>
                 <viewController id="TNh-nd-Oeb" sceneMemberID="viewController">
@@ -356,9 +357,20 @@
                     <view key="view" contentMode="scaleToFill" id="Pci-Bb-k7B">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="identity_protection" translatesAutoresizingMaskIntoConstraints="NO" id="rwk-F2-7CN">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rwk-F2-7CN" firstAttribute="top" secondItem="1p1-xD-JFL" secondAttribute="bottom" id="Nfi-SS-6pU"/>
+                            <constraint firstItem="7JX-vA-k05" firstAttribute="top" secondItem="rwk-F2-7CN" secondAttribute="bottom" id="Z7b-y3-FNB"/>
+                            <constraint firstItem="rwk-F2-7CN" firstAttribute="leading" secondItem="Pci-Bb-k7B" secondAttribute="leadingMargin" constant="-16" id="hmT-yN-laU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rwk-F2-7CN" secondAttribute="trailing" constant="-16" id="x6o-Sy-S6e"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Qq0-OO-EoA"/>
+                    <navigationItem key="navigationItem" title="Identity Protection" id="Qq0-OO-EoA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="stx-1l-WTQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -405,9 +417,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="alerts" width="748" height="1062"/>
         <image name="bell" width="30" height="30"/>
         <image name="calculator" width="30" height="30"/>
         <image name="creditreport" width="30" height="30"/>
+        <image name="identity_protection" width="750" height="1061"/>
         <image name="tu" width="30" height="30"/>
         <image name="unlock" width="30" height="30"/>
     </resources>
