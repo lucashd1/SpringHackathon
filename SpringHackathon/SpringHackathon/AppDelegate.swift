@@ -46,8 +46,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().tintColor = UIColor.whiteColor()
         UITabBar.appearance().barTintColor = blueColor
         UITabBar.appearance().tintColor = UIColor.whiteColor()
-        
-        
+        println(UIFont.familyNames())
         return true
     }
 

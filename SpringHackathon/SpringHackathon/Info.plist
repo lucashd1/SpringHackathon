@@ -6,6 +6,7 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
+		<string>IntroRegular.ttf</string>
 		<string>IntroSemiBoldCaps.ttf</string>
 		<string>IntroRegularCaps.ttf</string>
 	</array>
