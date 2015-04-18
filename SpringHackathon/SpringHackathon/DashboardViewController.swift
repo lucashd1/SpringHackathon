@@ -36,7 +36,7 @@ class DashboardViewController: UIViewController, UIWebViewDelegate {
     }
     
     func webViewDidFinishLoad(webView: UIWebView) {
-        self.score.stringByEvaluatingJavaScriptFromString("showData(660)")
+        self.score.stringByEvaluatingJavaScriptFromString("showData(\(user!.score))")
     }
 }
 
