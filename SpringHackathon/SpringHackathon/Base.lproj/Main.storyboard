@@ -18,23 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFL-Kv-0sh">
-                                <rect key="frame" x="279" y="475" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpt-SR-w6R">
-                                <rect key="frame" x="279" y="504" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="dashboard_selector" translatesAutoresizingMaskIntoConstraints="NO" id="V9q-aS-eDm">
                                 <rect key="frame" x="40" y="96" width="520" height="93"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="info" translatesAutoresizingMaskIntoConstraints="NO" id="wMB-T3-YGV">
-                                <rect key="frame" x="510" y="207" width="45" height="42"/>
                             </imageView>
                             <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jPS-At-ZjT">
                                 <rect key="frame" x="187" y="207" width="247" height="218"/>
@@ -47,22 +32,22 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="settings" translatesAutoresizingMaskIntoConstraints="NO" id="Mvk-Ax-wPf">
                                 <rect key="frame" x="40" y="207" width="45" height="42"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="info" translatesAutoresizingMaskIntoConstraints="NO" id="wMB-T3-YGV">
+                                <rect key="frame" x="510" y="207" width="45" height="42"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="jpt-SR-w6R" secondAttribute="centerX" id="4xD-Yf-5Yt"/>
                             <constraint firstItem="jPS-At-ZjT" firstAttribute="top" secondItem="V9q-aS-eDm" secondAttribute="bottom" constant="16" id="6aF-WL-hah"/>
-                            <constraint firstAttribute="centerX" secondItem="jPS-At-ZjT" secondAttribute="centerX" id="HDA-X3-jLk"/>
-                            <constraint firstItem="jPS-At-ZjT" firstAttribute="leading" secondItem="Mvk-Ax-wPf" secondAttribute="trailing" constant="8" id="Myh-Yr-Lgp"/>
+                            <constraint firstAttribute="centerX" secondItem="jPS-At-ZjT" secondAttribute="centerX" constant="-10" id="8r1-dm-EXj"/>
                             <constraint firstItem="V9q-aS-eDm" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="16" id="Qvx-G2-ode"/>
                             <constraint firstItem="Mvk-Ax-wPf" firstAttribute="top" secondItem="V9q-aS-eDm" secondAttribute="bottom" constant="16" id="R2A-x7-o53"/>
+                            <constraint firstItem="wMB-T3-YGV" firstAttribute="top" secondItem="V9q-aS-eDm" secondAttribute="bottom" constant="16" id="SYh-Tb-pmB"/>
                             <constraint firstAttribute="centerX" secondItem="V9q-aS-eDm" secondAttribute="centerX" id="TSZ-3u-FvE"/>
-                            <constraint firstAttribute="centerX" secondItem="fFL-Kv-0sh" secondAttribute="centerX" id="WXi-Fp-db8"/>
-                            <constraint firstItem="fFL-Kv-0sh" firstAttribute="top" secondItem="jpt-SR-w6R" secondAttribute="bottom" constant="81" id="fEO-0e-DQM"/>
+                            <constraint firstAttribute="centerX" secondItem="jPS-At-ZjT" secondAttribute="centerX" constant="-10" id="cEu-9w-wRX"/>
                             <constraint firstAttribute="centerX" secondItem="wMB-T3-YGV" secondAttribute="centerX" id="fFR-Oo-LUr"/>
-                            <constraint firstAttribute="centerY" secondItem="fFL-Kv-0sh" secondAttribute="centerY" id="g9J-zY-BOz"/>
-                            <constraint firstItem="wMB-T3-YGV" firstAttribute="top" secondItem="V9q-aS-eDm" secondAttribute="bottom" constant="16" id="tlM-3G-j1g"/>
-                            <constraint firstItem="wMB-T3-YGV" firstAttribute="leading" secondItem="jPS-At-ZjT" secondAttribute="trailing" constant="8" id="y6f-Fo-SGL"/>
+                            <constraint firstItem="jPS-At-ZjT" firstAttribute="leading" secondItem="Mvk-Ax-wPf" secondAttribute="trailing" constant="16" id="igZ-Ol-lbJ"/>
+                            <constraint firstItem="wMB-T3-YGV" firstAttribute="leading" secondItem="jPS-At-ZjT" secondAttribute="trailing" id="qre-Hf-Rez"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -72,8 +57,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Dashboard" id="mxk-Qr-l6S"/>
                     <connections>
-                        <outlet property="name" destination="jpt-SR-w6R" id="4Vo-0K-Qcd"/>
-                        <outlet property="score" destination="fFL-Kv-0sh" id="ZRO-CI-19e"/>
+                        <outlet property="score" destination="jPS-At-ZjT" id="iKE-Re-a8E"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

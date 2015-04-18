@@ -17,6 +17,9 @@
 		A097744B1AE0344F00ED69CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A097744A1AE0344F00ED69CB /* Images.xcassets */; };
 		A097744E1AE0344F00ED69CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A097744C1AE0344F00ED69CB /* LaunchScreen.xib */; };
 		A097745A1AE0345000ED69CB /* SpringHackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09774591AE0345000ED69CB /* SpringHackathonTests.swift */; };
+		DBD7D58E1AE2D317004802DE /* d3.js in Resources */ = {isa = PBXBuildFile; fileRef = DBD7D58B1AE2D317004802DE /* d3.js */; };
+		DBD7D5901AE2D317004802DE /* radialProgress.js in Resources */ = {isa = PBXBuildFile; fileRef = DBD7D58D1AE2D317004802DE /* radialProgress.js */; };
+		DBD7D5921AE2D349004802DE /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = DBD7D5911AE2D349004802DE /* index.html */; };
 		DBE2EB761AE1CE8E0091BBCE /* BellJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = DBE2EB731AE1CE8E0091BBCE /* BellJSON.json */; };
 		DBE2EB771AE1CE8E0091BBCE /* ChildsJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = DBE2EB741AE1CE8E0091BBCE /* ChildsJSON.json */; };
 		DBE2EB781AE1CE8E0091BBCE /* WoodenJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = DBE2EB751AE1CE8E0091BBCE /* WoodenJSON.json */; };
@@ -66,6 +69,10 @@
 		A09774531AE0345000ED69CB /* SpringHackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringHackathonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A09774581AE0345000ED69CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A09774591AE0345000ED69CB /* SpringHackathonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringHackathonTests.swift; sourceTree = "<group>"; };
+		DBD7D58B1AE2D317004802DE /* d3.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = d3.js; sourceTree = "<group>"; };
+		DBD7D58D1AE2D317004802DE /* radialProgress.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = radialProgress.js; sourceTree = "<group>"; };
+		DBD7D5911AE2D349004802DE /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		DBD7D5931AE2D766004802DE /* IntroRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IntroRegular.ttf; sourceTree = "<group>"; };
 		DBE2EB731AE1CE8E0091BBCE /* BellJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BellJSON.json; sourceTree = "<group>"; };
 		DBE2EB741AE1CE8E0091BBCE /* ChildsJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChildsJSON.json; sourceTree = "<group>"; };
 		DBE2EB751AE1CE8E0091BBCE /* WoodenJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WoodenJSON.json; sourceTree = "<group>"; };
@@ -158,6 +165,9 @@
 		A097743E1AE0344F00ED69CB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DBD7D58B1AE2D317004802DE /* d3.js */,
+				DBD7D58D1AE2D317004802DE /* radialProgress.js */,
+				DBD7D5911AE2D349004802DE /* index.html */,
 				A097743F1AE0344F00ED69CB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -241,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				DBE2EBA21AE2214D0091BBCE /* IntroRegularCaps.ttf */,
+				DBD7D5931AE2D766004802DE /* IntroRegular.ttf */,
 				DBE2EBA01AE21DC50091BBCE /* IntroSemiBoldCaps.ttf */,
 			);
 			name = Fonts;
@@ -327,12 +338,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD7D58E1AE2D317004802DE /* d3.js in Resources */,
 				DBF83FD51AE243A50023A08E /* LoanJSON.json in Resources */,
 				DBE2EBA31AE221880091BBCE /* IntroRegularCaps.ttf in Resources */,
+				DBD7D5921AE2D349004802DE /* index.html in Resources */,
 				DBE2EBA11AE21DC50091BBCE /* IntroSemiBoldCaps.ttf in Resources */,
 				A09774491AE0344F00ED69CB /* Main.storyboard in Resources */,
 				DBE2EB771AE1CE8E0091BBCE /* ChildsJSON.json in Resources */,
 				A097744E1AE0344F00ED69CB /* LaunchScreen.xib in Resources */,
+				DBD7D5901AE2D317004802DE /* radialProgress.js in Resources */,
 				DBE2EB781AE1CE8E0091BBCE /* WoodenJSON.json in Resources */,
 				DBE2EB761AE1CE8E0091BBCE /* BellJSON.json in Resources */,
 				A097744B1AE0344F00ED69CB /* Images.xcassets in Resources */,
