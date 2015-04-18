@@ -113,7 +113,26 @@ class LoanEstimatorViewController: UIViewController {
     }
     
     @IBAction func sliderChanged(sender: UISlider) {
+        var roundVal: Float = 0
+        if self.loan.type == "Auto" {
+            roundVal = 500
+        }
+        else {
+            roundVal = 1000
+        }
+        round(roundVal)
         self.updateValues()
+    }
+    
+    func round(val: Float) {
+        let mod = self.slider.value % val
+        let mid = val / 2
+        if mod < mid {
+            slider.value -= mod
+        }
+        else {
+            slider.value += (val - mod)
+        }
     }
     
     override func viewDidLoad() {
@@ -126,6 +145,9 @@ class LoanEstimatorViewController: UIViewController {
         if let font = UIFont(name: "IntroSemiBoldCaps", size: 14) {
             estimateScoreButton.titleLabel!.font =  font
         }
+        self.slider.setThumbImage(UIImage(named: "slider"), forState: UIControlState.Normal)
+        self.slider.setThumbImage(UIImage(named: "slider"), forState: UIControlState.Selected)
+        self.slider.setThumbImage(UIImage(named: "slider"), forState: UIControlState.Highlighted)
         
         self.updateLoanRecommendation()
         self.updateValues()

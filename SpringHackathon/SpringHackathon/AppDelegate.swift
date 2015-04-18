@@ -43,6 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         UINavigationBar.appearance().barTintColor = blueColorSelected
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
         UITabBar.appearance().barTintColor = blueColor
         UITabBar.appearance().tintColor = UIColor.whiteColor()
         

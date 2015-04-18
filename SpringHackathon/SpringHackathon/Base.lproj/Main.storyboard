@@ -177,6 +177,8 @@
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="uhk-Ks-ty7">
                                 <rect key="frame" x="156" y="205" width="288" height="31"/>
+                                <color key="tintColor" red="0.98431372549999996" green="0.83921568629999999" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="thumbTintColor" red="0.98431372549999996" green="0.83921568629999999" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="sliderChanged:" destination="6mu-Hn-NU7" eventType="valueChanged" id="Ck9-Su-n4l"/>
                                 </connections>
