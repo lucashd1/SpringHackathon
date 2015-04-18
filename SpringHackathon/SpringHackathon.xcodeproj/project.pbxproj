@@ -30,6 +30,8 @@
 		DBE2EB911AE1D3F70091BBCE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE2EB901AE1D3F70091BBCE /* SystemConfiguration.framework */; };
 		DBE2EB931AE1D4070091BBCE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE2EB921AE1D4070091BBCE /* libz.dylib */; };
 		DBE2EB951AE1D4130091BBCE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE2EB941AE1D4130091BBCE /* libsqlite3.dylib */; };
+		DBE2EB971AE1F10B0091BBCE /* JsonLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE2EB961AE1F10B0091BBCE /* JsonLoader.swift */; };
+		DBE2EB991AE1F58F0091BBCE /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE2EB981AE1F58F0091BBCE /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		DBE2EB901AE1D3F70091BBCE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DBE2EB921AE1D4070091BBCE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		DBE2EB941AE1D4130091BBCE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		DBE2EB961AE1F10B0091BBCE /* JsonLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonLoader.swift; sourceTree = "<group>"; };
+		DBE2EB981AE1F58F0091BBCE /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +130,10 @@
 		A097743D1AE0344F00ED69CB /* SpringHackathon */ = {
 			isa = PBXGroup;
 			children = (
+				DBE2EB981AE1F58F0091BBCE /* SwiftyJSON.swift */,
 				A09774401AE0344F00ED69CB /* AppDelegate.swift */,
 				A09774451AE0344F00ED69CB /* ViewController.swift */,
+				DBE2EB961AE1F10B0091BBCE /* JsonLoader.swift */,
 				A09774471AE0344F00ED69CB /* Main.storyboard */,
 				A097744A1AE0344F00ED69CB /* Images.xcassets */,
 				A097744C1AE0344F00ED69CB /* LaunchScreen.xib */,
@@ -295,8 +301,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE2EB971AE1F10B0091BBCE /* JsonLoader.swift in Sources */,
 				A09774461AE0344F00ED69CB /* ViewController.swift in Sources */,
 				A09774441AE0344F00ED69CB /* SpringHackathon.xcdatamodeld in Sources */,
+				DBE2EB991AE1F58F0091BBCE /* SwiftyJSON.swift in Sources */,
 				A09774411AE0344F00ED69CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
