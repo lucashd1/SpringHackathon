@@ -36,15 +36,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITabBar.appearance().barTintColor = blueColor
         UITabBar.appearance().tintColor = UIColor.whiteColor()
         
-        var loan = Loan()
-        
-        loan.range = "700_759"
-        loan.state = "AL"
-        loan.type = "30_Year_Fixed"
-        loan.score = 710
+        var loan = Loan(score: 600, state: "CA", type: "Auto", loan: "60_Month_New")
+        println(loan.score)
+        println(loan.state)
+        println(loan.type)
+        println(loan.loan)
+        println(loan.range)
         
         var parse = LoanDataParser(loan: loan)
+        parse.loadJson()
         println(loan.apr)
+        
+        var calc = LoanCalculator()
+        calc.loan = loan
+        println(calc.calcMonthly(calc.calcRate(loan.apr), months: 60, principal: 1000000))
         
         
         return true

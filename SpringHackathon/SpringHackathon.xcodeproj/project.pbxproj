@@ -37,6 +37,7 @@
 		DBE2EBA31AE221880091BBCE /* IntroRegularCaps.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBE2EBA21AE2214D0091BBCE /* IntroRegularCaps.ttf */; };
 		DBE2EBA51AE2364E0091BBCE /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE2EBA41AE2364E0091BBCE /* TabBarController.swift */; };
 		DBE2EBA71AE2370F0091BBCE /* LoanEstimatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE2EBA61AE2370F0091BBCE /* LoanEstimatorViewController.swift */; };
+		DBF83FD51AE243A50023A08E /* LoanJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 508F32D61AE22D040041BA2B /* LoanJSON.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -327,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF83FD51AE243A50023A08E /* LoanJSON.json in Resources */,
 				DBE2EBA31AE221880091BBCE /* IntroRegularCaps.ttf in Resources */,
 				DBE2EBA11AE21DC50091BBCE /* IntroSemiBoldCaps.ttf in Resources */,
 				A09774491AE0344F00ED69CB /* Main.storyboard in Resources */,
