@@ -9,10 +9,6 @@
 import UIKit
 
 class LoanEstimatorViewController: UIViewController {
-    enum LoanType {
-        case Auto, Mortgage
-    }
-    
     @IBOutlet weak var selector: UISegmentedControl!
     @IBOutlet weak var minLoan: UILabel!
     @IBOutlet weak var maxLoan: UILabel!
@@ -25,37 +21,59 @@ class LoanEstimatorViewController: UIViewController {
     @IBOutlet weak var slider: UISlider!
     
     var user: User?
-    var selected = LoanType.Auto
     var loan: Loan!
     
+    func updateValues() {
+        // Principle.
+        self.principal.text = "$\(Int(slider.value))"
+        
+        // APR.
+        self.loan.calcAPR()
+        self.apr.text = NSString(format: "%.2f%%", self.loan.apr) as String
+        
+        // Monthly payment.
+        let monthly = self.loan.calcMonthly(self.slider.value)
+        self.monthlyPayment.text = NSString(format: "$%.2f", monthly) as String
+    }
+    
+    func updateLoanRecommendation() {
+        self.loan.calcLoanRecommendation()
+        
+        self.minLoan.text = "$\(Int(self.loan.min))"
+        self.maxLoan.text = "$\(Int(self.loan.max))"
+        slider.minimumValue = self.loan.min
+        slider.maximumValue = self.loan.max
+        slider.value = slider.minimumValue
+    }
+    
     @IBAction func selectorChanged(sender: AnyObject) {
+        loanTerm.removeAllSegments()
+
         switch selector.selectedSegmentIndex {
         case 1:
-            loanTerm.removeAllSegments()
             loanTerm.insertSegmentWithTitle("15", atIndex: 0, animated: true)
             loanTerm.insertSegmentWithTitle("30", atIndex: 1, animated: true)
             loanTermUnit.text = "years"
-            selected = LoanType.Mortgage
             self.loan.type = "Mortgage"
+            self.loan.loan = "15_Year_Fixed"
+            self.loan.months = 15.0 * 12.0
             
         case 0:
-            loanTerm.removeAllSegments()
             loanTerm.insertSegmentWithTitle("36", atIndex: 0, animated: true)
             loanTerm.insertSegmentWithTitle("48", atIndex: 1, animated: true)
             loanTerm.insertSegmentWithTitle("60", atIndex: 2, animated: true)
             loanTermUnit.text = "months"
-            selected = LoanType.Auto
             self.loan.type = "Auto"
+            self.loan.loan = "36_Month_New"
+            self.loan.months = 36.0
             
         default:
-            println("test")
+            println("Default case")
         }
-        self.loan.calcRest()
-        self.minLoan.text = "$\(self.loan.min)0"
-        self.maxLoan.text = "$\(self.loan.max)0"
-        slider.minimumValue = self.loan.min
-        slider.maximumValue = self.loan.max
-        slider.value = slider.minimumValue
+        
+        loanTerm.selectedSegmentIndex = 0
+        self.updateLoanRecommendation()
+        self.updateValues()
     }
     
     @IBAction func loanTermChanged(sender: AnyObject) {
@@ -76,8 +94,7 @@ class LoanEstimatorViewController: UIViewController {
             default:
                 println("error")
             }
-        }
-        else {
+        } else {
             switch loanTerm.selectedSegmentIndex {
             case 1:
                 self.loan.loan = "30_Year_Fixed"
@@ -91,12 +108,12 @@ class LoanEstimatorViewController: UIViewController {
                 println("error")
             }
         }
+        
+        self.updateValues()
     }
     
     @IBAction func sliderChanged(sender: UISlider) {
-        var current = Double(sender.value)
-        var costString = NSString(format:"$%.2f", current)
-        principal.text = costString as String
+        self.updateValues()
     }
     
     override func viewDidLoad() {
@@ -109,21 +126,9 @@ class LoanEstimatorViewController: UIViewController {
         if let font = UIFont(name: "IntroSemiBoldCaps", size: 14) {
             estimateScoreButton.titleLabel!.font =  font
         }
-        self.minLoan.text = "$\(self.loan.min)0"
-        self.maxLoan.text = "$\(self.loan.max)0"
-        slider.minimumValue = self.loan.min
-        slider.maximumValue = self.loan.max
-        slider.value = slider.minimumValue
-        let current = Double(slider.value)
-        let costString = NSString(format:"$%.2f", current)
-        principal.text = costString as String
-    }
-    
-    @IBAction func calculate(sender: AnyObject) {
-        self.loan.calcAPR()
-        self.apr.text = "%\(self.loan.apr)"
-        let monthly = self.loan.calcMonthly(self.slider.value)
-        self.monthlyPayment.text = NSString(format: "$%.2f", monthly) as String
+        
+        self.updateLoanRecommendation()
+        self.updateValues()
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
