@@ -35,24 +35,22 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info" translatesAutoresizingMaskIntoConstraints="NO" id="wMB-T3-YGV">
                                 <rect key="frame" x="434" y="189" width="30" height="30"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button_dashboard" translatesAutoresizingMaskIntoConstraints="NO" id="8CY-Ex-1RY">
-                                <rect key="frame" x="180" y="463" width="240" height="55"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="55" id="JKO-HY-icc"/>
-                                    <constraint firstAttribute="width" constant="240" id="qpu-vj-noa"/>
-                                </constraints>
-                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8e1-lc-Z23">
+                                <rect key="frame" x="17" y="415" width="566" height="84"/>
+                                <state key="normal" backgroundImage="button_dashboard">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" backgroundImage="button_click_dashboard"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="8CY-Ex-1RY" secondAttribute="bottom" constant="33" id="5tn-kG-jfN"/>
                             <constraint firstItem="jPS-At-ZjT" firstAttribute="top" secondItem="V9q-aS-eDm" secondAttribute="bottom" constant="16" id="6aF-WL-hah"/>
                             <constraint firstAttribute="centerX" secondItem="jPS-At-ZjT" secondAttribute="centerX" constant="-10" id="8r1-dm-EXj"/>
                             <constraint firstItem="V9q-aS-eDm" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="16" id="Qvx-G2-ode"/>
                             <constraint firstItem="Mvk-Ax-wPf" firstAttribute="top" secondItem="V9q-aS-eDm" secondAttribute="bottom" constant="16" id="R2A-x7-o53"/>
                             <constraint firstItem="wMB-T3-YGV" firstAttribute="top" secondItem="V9q-aS-eDm" secondAttribute="bottom" constant="16" id="SYh-Tb-pmB"/>
                             <constraint firstAttribute="centerX" secondItem="V9q-aS-eDm" secondAttribute="centerX" id="TSZ-3u-FvE"/>
-                            <constraint firstAttribute="centerX" secondItem="8CY-Ex-1RY" secondAttribute="centerX" id="XIm-GV-klM"/>
                             <constraint firstAttribute="centerX" secondItem="jPS-At-ZjT" secondAttribute="centerX" constant="-10" id="cEu-9w-wRX"/>
                             <constraint firstAttribute="centerX" secondItem="wMB-T3-YGV" secondAttribute="centerX" id="fFR-Oo-LUr"/>
                             <constraint firstItem="jPS-At-ZjT" firstAttribute="leading" secondItem="Mvk-Ax-wPf" secondAttribute="trailing" constant="16" id="igZ-Ol-lbJ"/>
@@ -521,6 +519,7 @@
     <resources>
         <image name="alerts" width="748" height="1062"/>
         <image name="bell" width="30" height="30"/>
+        <image name="button_click_dashboard" width="566" height="84"/>
         <image name="button_dashboard" width="566" height="84"/>
         <image name="calculator" width="30" height="30"/>
         <image name="creditreport" width="30" height="30"/>
