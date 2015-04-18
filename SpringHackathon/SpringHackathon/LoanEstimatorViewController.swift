@@ -129,7 +129,8 @@ class LoanEstimatorViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "toEstimatedScore" {
             if let destinationViewController = segue.destinationViewController as? EstimateScoreViewController {
-                destinationViewController.estimatedScore = 500 // replace
+                self.loan.calcEstimated()
+                destinationViewController.loan = self.loan
             }
         }
     }
