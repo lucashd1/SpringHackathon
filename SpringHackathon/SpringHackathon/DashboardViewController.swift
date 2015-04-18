@@ -11,6 +11,10 @@ import UIKit
 class DashboardViewController: UIViewController, UIWebViewDelegate {
     @IBOutlet weak var score: UIWebView!
     
+    @IBAction func smartLoansButtonAction(sender: AnyObject) {
+        self.tabBarController?.selectedIndex = 4
+    }
+    
     var user: User?
 
     override func viewDidLoad() {

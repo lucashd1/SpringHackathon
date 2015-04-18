@@ -45,8 +45,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if let font = UIFont(name: "IntroRegular", size: 17) {
             UILabel.appearance().font = font
+            UITextField.appearance().font = font
         }
-        println()
         
         UINavigationBar.appearance().barTintColor = blueColorSelected
         UINavigationBar.appearance().tintColor = UIColor.whiteColor()
