@@ -17,7 +17,9 @@ class DashboardViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        if let tabBarController = self.tabBarController as? TabBarController {
+            self.user = tabBarController.user
+        }
 
         name.text = user!.name
         score.text = "\(user!.score)"

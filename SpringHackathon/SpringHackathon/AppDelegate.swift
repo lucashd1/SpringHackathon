@@ -16,17 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        let blueColor = UIColor(red: 0.153, green: 0.651, blue: 0.780, alpha: 1.0)
+        let blueColorSelected = UIColor(red: 0.259, green: 0.698, blue: 0.808, alpha: 1.0)
         var loader = JsonLoader()
         loader.loadJson()
         
-        if let tabBarControllers = window?.rootViewController as? UITabBarController {
-            if let navigationControllers = tabBarControllers.viewControllers as? [UINavigationController] {
-                if let dashboardController = navigationControllers[0].topViewController as? DashboardViewController {
-                    dashboardController.user = loader.user
-                }
-            }
+        if let tabBarController = window?.rootViewController as? TabBarController {
+            tabBarController.user = loader.user
         }
         
         application.setStatusBarStyle(UIStatusBarStyle.LightContent, animated: false)
@@ -35,7 +32,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: font, NSForegroundColorAttributeName: UIColor.whiteColor()]
         }
         
-        UINavigationBar.appearance().barTintColor = UIColor(red: 0.0/255, green: 166.0/255, blue: 202.0/255, alpha: 1.0)
+        UINavigationBar.appearance().barTintColor = blueColorSelected
+        UITabBar.appearance().barTintColor = blueColor
+        UITabBar.appearance().tintColor = UIColor.whiteColor()
         
         return true
     }

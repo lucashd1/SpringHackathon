@@ -35,6 +35,8 @@
 		DBE2EB9E1AE1FC4A0091BBCE /* TransunionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE2EB9D1AE1FC4A0091BBCE /* TransunionModel.swift */; };
 		DBE2EBA11AE21DC50091BBCE /* IntroSemiBoldCaps.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBE2EBA01AE21DC50091BBCE /* IntroSemiBoldCaps.ttf */; };
 		DBE2EBA31AE221880091BBCE /* IntroRegularCaps.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBE2EBA21AE2214D0091BBCE /* IntroRegularCaps.ttf */; };
+		DBE2EBA51AE2364E0091BBCE /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE2EBA41AE2364E0091BBCE /* TabBarController.swift */; };
+		DBE2EBA71AE2370F0091BBCE /* LoanEstimatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE2EBA61AE2370F0091BBCE /* LoanEstimatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		DBE2EB9D1AE1FC4A0091BBCE /* TransunionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransunionModel.swift; sourceTree = "<group>"; };
 		DBE2EBA01AE21DC50091BBCE /* IntroSemiBoldCaps.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IntroSemiBoldCaps.ttf; sourceTree = "<group>"; };
 		DBE2EBA21AE2214D0091BBCE /* IntroRegularCaps.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IntroRegularCaps.ttf; sourceTree = "<group>"; };
+		DBE2EBA41AE2364E0091BBCE /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		DBE2EBA61AE2370F0091BBCE /* LoanEstimatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanEstimatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +216,8 @@
 			isa = PBXGroup;
 			children = (
 				A09774451AE0344F00ED69CB /* DashboardViewController.swift */,
+				DBE2EBA61AE2370F0091BBCE /* LoanEstimatorViewController.swift */,
+				DBE2EBA41AE2364E0091BBCE /* TabBarController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
