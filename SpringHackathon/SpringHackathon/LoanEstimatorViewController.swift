@@ -96,7 +96,7 @@ class LoanEstimatorViewController: UIViewController {
     @IBAction func sliderChanged(sender: UISlider) {
         var current = Double(sender.value)
         var costString = NSString(format:"$%.2f", current)
-        principal.text = costString
+        principal.text = costString as String
     }
     
     override func viewDidLoad() {
@@ -116,14 +116,14 @@ class LoanEstimatorViewController: UIViewController {
         slider.value = slider.minimumValue
         let current = Double(slider.value)
         let costString = NSString(format:"$%.2f", current)
-        principal.text = costString
+        principal.text = costString as String
     }
     
     @IBAction func calculate(sender: AnyObject) {
         self.loan.calcAPR()
         self.apr.text = "%\(self.loan.apr)"
         let monthly = self.loan.calcMonthly(self.slider.value)
-        self.monthlyPayment.text = NSString(format: "$%.2f", monthly)
+        self.monthlyPayment.text = NSString(format: "$%.2f", monthly) as String
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

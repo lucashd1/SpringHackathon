@@ -19,8 +19,6 @@
 		DBE2EB761AE1CE8E0091BBCE /* BellJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = DBE2EB731AE1CE8E0091BBCE /* BellJSON.json */; };
 		DBE2EB771AE1CE8E0091BBCE /* ChildsJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = DBE2EB741AE1CE8E0091BBCE /* ChildsJSON.json */; };
 		DBE2EB781AE1CE8E0091BBCE /* WoodenJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = DBE2EB751AE1CE8E0091BBCE /* WoodenJSON.json */; };
-		DBE2EB7C1AE1D1320091BBCE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE2EB7B1AE1D1320091BBCE /* Bolts.framework */; };
-		DBE2EB7E1AE1D16B0091BBCE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE2EB7D1AE1D16B0091BBCE /* Parse.framework */; };
 		DBE2EB811AE1D3C50091BBCE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE2EB801AE1D3C50091BBCE /* AudioToolbox.framework */; };
 		DBE2EB831AE1D3CB0091BBCE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE2EB821AE1D3CB0091BBCE /* CFNetwork.framework */; };
 		DBE2EB851AE1D3D10091BBCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE2EB841AE1D3D00091BBCE /* CoreGraphics.framework */; };
@@ -69,8 +67,6 @@
 		DBE2EB731AE1CE8E0091BBCE /* BellJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BellJSON.json; sourceTree = "<group>"; };
 		DBE2EB741AE1CE8E0091BBCE /* ChildsJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChildsJSON.json; sourceTree = "<group>"; };
 		DBE2EB751AE1CE8E0091BBCE /* WoodenJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WoodenJSON.json; sourceTree = "<group>"; };
-		DBE2EB7B1AE1D1320091BBCE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		DBE2EB7D1AE1D16B0091BBCE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		DBE2EB801AE1D3C50091BBCE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		DBE2EB821AE1D3CB0091BBCE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		DBE2EB841AE1D3D00091BBCE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -106,8 +102,6 @@
 				DBE2EB851AE1D3D10091BBCE /* CoreGraphics.framework in Frameworks */,
 				DBE2EB831AE1D3CB0091BBCE /* CFNetwork.framework in Frameworks */,
 				DBE2EB811AE1D3C50091BBCE /* AudioToolbox.framework in Frameworks */,
-				DBE2EB7E1AE1D16B0091BBCE /* Parse.framework in Frameworks */,
-				DBE2EB7C1AE1D1320091BBCE /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,8 +203,6 @@
 				DBE2EB841AE1D3D00091BBCE /* CoreGraphics.framework */,
 				DBE2EB821AE1D3CB0091BBCE /* CFNetwork.framework */,
 				DBE2EB801AE1D3C50091BBCE /* AudioToolbox.framework */,
-				DBE2EB7D1AE1D16B0091BBCE /* Parse.framework */,
-				DBE2EB7B1AE1D1320091BBCE /* Bolts.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -300,6 +292,7 @@
 				TargetAttributes = {
 					A097743A1AE0344F00ED69CB = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = PY9957M84G;
 					};
 					A09774521AE0345000ED69CB = {
 						CreatedOnToolsVersion = 6.3;
@@ -493,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -501,6 +495,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -509,6 +504,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -517,6 +513,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

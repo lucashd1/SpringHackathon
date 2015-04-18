@@ -8,8 +8,6 @@
 
 import UIKit
 import CoreData
-import Parse
-import Bolts
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -28,8 +26,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         if let loan = loan {
-            let tabBar = self.window?.rootViewController as TabBarController
-            let estView = tabBar.viewControllers?[4].topViewController as LoanEstimatorViewController
+            let tabBar = self.window?.rootViewController as! TabBarController
+            let estView = tabBar.viewControllers?[4].topViewController as! LoanEstimatorViewController
             estView.loan = loan
         }
         
