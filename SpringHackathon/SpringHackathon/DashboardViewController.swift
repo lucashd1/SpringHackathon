@@ -25,7 +25,6 @@ class DashboardViewController: UIViewController, UIWebViewDelegate {
         if let path = NSBundle.mainBundle().pathForResource("index", ofType: "html") {
             let urlPath = NSURL.fileURLWithPath(path)
             if let contents = String(contentsOfFile: path, encoding: NSUTF8StringEncoding, error: nil) {
-                print("\(contents)")
                 self.score.loadHTMLString(contents, baseURL: urlPath)
             }
         }
