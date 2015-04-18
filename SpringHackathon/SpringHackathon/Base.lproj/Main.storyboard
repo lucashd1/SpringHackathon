@@ -214,6 +214,7 @@
                                     <segment title="Auto"/>
                                     <segment title="Mortgage"/>
                                 </segments>
+                                <color key="tintColor" red="0.95686274509803926" green="0.95686274509803926" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="selectorChanged:" destination="6mu-Hn-NU7" eventType="valueChanged" id="h1O-JW-ZvI"/>
                                 </connections>
@@ -251,6 +252,7 @@
                                     <segment title="48"/>
                                     <segment title="60"/>
                                 </segments>
+                                <color key="tintColor" red="0.95686274509803926" green="0.95686274509803926" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="loanTermChanged:" destination="6mu-Hn-NU7" eventType="valueChanged" id="dQ5-p4-vw7"/>
                                 </connections>
