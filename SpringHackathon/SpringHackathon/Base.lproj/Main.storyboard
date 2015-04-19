@@ -183,7 +183,7 @@
         <scene sceneID="M9C-Wl-Wow">
             <objects>
                 <navigationController id="WpM-rc-BDI" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="calculator" id="aF6-m4-n7S"/>
+                    <tabBarItem key="tabBarItem" title="" image="thumbsup" id="aF6-m4-n7S"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9Tp-2o-lG4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -685,7 +685,6 @@
         <image name="button_dashboard" width="566" height="84"/>
         <image name="button_income" width="566" height="84"/>
         <image name="button_simulate" width="566" height="84"/>
-        <image name="calculator" width="30" height="30"/>
         <image name="creditreport" width="30" height="30"/>
         <image name="creditreport_mockup" width="748" height="1059"/>
         <image name="dashboard_background" width="750" height="421"/>
@@ -696,6 +695,7 @@
         <image name="settings" width="30" height="30"/>
         <image name="slider_content" width="453" height="187"/>
         <image name="smartloans" width="316" height="173"/>
+        <image name="thumbsup" width="30" height="30"/>
         <image name="tu" width="30" height="30"/>
         <image name="unlock" width="30" height="30"/>
     </resources>
