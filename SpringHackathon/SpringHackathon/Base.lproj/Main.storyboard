@@ -26,32 +26,32 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dashboard_selector" translatesAutoresizingMaskIntoConstraints="NO" id="V9q-aS-eDm">
                                 <rect key="frame" x="40" y="80" width="520" height="93"/>
                             </imageView>
-                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jPS-At-ZjT">
-                                <rect key="frame" x="187" y="189" width="247" height="218"/>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jPS-At-ZjT">
+                                <rect key="frame" x="177" y="189" width="247" height="218"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="218" id="LHP-Px-3sX"/>
                                     <constraint firstAttribute="width" constant="247" id="PhU-ad-a6j"/>
                                 </constraints>
                             </webView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="settings" translatesAutoresizingMaskIntoConstraints="NO" id="Mvk-Ax-wPf">
-                                <rect key="frame" x="141" y="189" width="30" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings" translatesAutoresizingMaskIntoConstraints="NO" id="Mvk-Ax-wPf">
+                                <rect key="frame" x="135" y="189" width="30" height="30"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="info" translatesAutoresizingMaskIntoConstraints="NO" id="wMB-T3-YGV">
-                                <rect key="frame" x="434" y="189" width="30" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info" translatesAutoresizingMaskIntoConstraints="NO" id="wMB-T3-YGV">
+                                <rect key="frame" x="432" y="189" width="25" height="25"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="dashboard_background" translatesAutoresizingMaskIntoConstraints="NO" id="7Py-jA-z17">
-                                <rect key="frame" x="0.0" y="381" width="600" height="170"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dashboard_background" translatesAutoresizingMaskIntoConstraints="NO" id="7Py-jA-z17">
+                                <rect key="frame" x="0.0" y="311" width="600" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="bw4-XN-jup"/>
                                     <constraint firstAttribute="width" constant="600" id="hHH-QA-Ctz"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="dots" translatesAutoresizingMaskIntoConstraints="NO" id="saz-GB-ITD">
-                                <rect key="frame" x="262" y="516" width="99" height="27"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dots" translatesAutoresizingMaskIntoConstraints="NO" id="saz-GB-ITD">
+                                <rect key="frame" x="235" y="515" width="130" height="20"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8e1-lc-Z23">
-                                <rect key="frame" x="159" y="473" width="283" height="41"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8e1-lc-Z23">
+                                <rect key="frame" x="159" y="458" width="283" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="H1V-ib-M9k"/>
                                     <constraint firstAttribute="width" constant="283" id="b6W-qc-tG4"/>
@@ -65,8 +65,8 @@
                                     <action selector="smartLoansButtonAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="T2i-Hw-SZo"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="slider_content" translatesAutoresizingMaskIntoConstraints="NO" id="ZWL-Wm-CPg">
-                                <rect key="frame" x="189" y="356" width="253" height="109"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slider_content" translatesAutoresizingMaskIntoConstraints="NO" id="ZWL-Wm-CPg">
+                                <rect key="frame" x="174" y="325" width="253" height="109"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="109" id="18D-oo-HeL"/>
                                     <constraint firstAttribute="width" constant="253" id="cCi-5Q-QLt"/>
