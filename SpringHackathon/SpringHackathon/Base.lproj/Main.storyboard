@@ -102,7 +102,7 @@
         <scene sceneID="vbb-NN-fYe">
             <objects>
                 <navigationController id="Nus-D9-o3V" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="nav4" selectedImage="nav4_active" id="DW5-Wg-hK7"/>
+                    <tabBarItem key="tabBarItem" title="" image="unlock" id="DW5-Wg-hK7"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WQW-Et-bBi">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -119,7 +119,7 @@
         <scene sceneID="UVa-FI-0m7">
             <objects>
                 <navigationController id="01o-IY-eiF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="nav1" selectedImage="nav1_active" id="N2t-Tk-hgW"/>
+                    <tabBarItem key="tabBarItem" title="" image="tu" id="N2t-Tk-hgW"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="h7d-9V-kHb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -136,7 +136,7 @@
         <scene sceneID="Y7Z-Ni-1Z0">
             <objects>
                 <navigationController id="fnC-6Z-kpz" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="nav3" selectedImage="nav3_active" id="Xxy-9y-NQ9"/>
+                    <tabBarItem key="tabBarItem" title="" image="bell" id="Xxy-9y-NQ9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="z09-PH-Yx5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -183,7 +183,7 @@
         <scene sceneID="M9C-Wl-Wow">
             <objects>
                 <navigationController id="WpM-rc-BDI" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="nav5" selectedImage="nav5_active" id="aF6-m4-n7S"/>
+                    <tabBarItem key="tabBarItem" title="" image="calculator" id="aF6-m4-n7S"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9Tp-2o-lG4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -491,8 +491,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57n-3g-FmY">
-                                <rect key="frame" x="279" y="400" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="If you were to take out an" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57n-3g-FmY">
+                                <rect key="frame" x="160" y="362" width="195" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -505,13 +505,64 @@
                                     <constraint firstAttribute="height" constant="218" id="KHA-4K-Ko4"/>
                                 </constraints>
                             </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LSU-s8-PDQ">
+                                <rect key="frame" x="375" y="362" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="of" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icD-ar-5t6">
+                                <rect key="frame" x="127" y="391" width="15" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzE-Vp-Tb5">
+                                <rect key="frame" x="165" y="391" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="over" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ui-DW-a1L">
+                                <rect key="frame" x="228" y="391" width="34" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPC-oQ-63F">
+                                <rect key="frame" x="282" y="391" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="at an" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEt-vD-pym">
+                                <rect key="frame" x="342" y="391" width="39" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBE-E4-PEl">
+                                <rect key="frame" x="403" y="391" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="57n-3g-FmY" firstAttribute="top" secondItem="UGI-qI-bRp" secondAttribute="bottom" constant="64" id="2ZF-s2-MmF"/>
+                            <constraint firstItem="FBE-E4-PEl" firstAttribute="leading" secondItem="bEt-vD-pym" secondAttribute="trailing" constant="15" id="1lf-Al-F00"/>
+                            <constraint firstItem="57n-3g-FmY" firstAttribute="top" secondItem="UGI-qI-bRp" secondAttribute="bottom" constant="50" id="2ZF-s2-MmF"/>
                             <constraint firstItem="UGI-qI-bRp" firstAttribute="top" secondItem="Snr-dL-N3X" secondAttribute="bottom" constant="32" id="2dI-9L-ioz"/>
+                            <constraint firstItem="icD-ar-5t6" firstAttribute="leading" secondItem="i89-gI-fC8" secondAttribute="leadingMargin" constant="40" id="9rj-Qw-ayN"/>
+                            <constraint firstItem="57n-3g-FmY" firstAttribute="leading" secondItem="i89-gI-fC8" secondAttribute="leadingMargin" constant="50" id="9yj-Fu-oDH"/>
+                            <constraint firstItem="gPC-oQ-63F" firstAttribute="leading" secondItem="0ui-DW-a1L" secondAttribute="trailing" constant="15" id="N1f-np-L5E"/>
                             <constraint firstAttribute="centerX" secondItem="UGI-qI-bRp" secondAttribute="centerX" constant="-8" id="Z3Z-8X-anu"/>
+                            <constraint firstItem="bEt-vD-pym" firstAttribute="leading" secondItem="gPC-oQ-63F" secondAttribute="trailing" constant="15" id="ZdO-Cz-cb5"/>
                             <constraint firstAttribute="centerX" secondItem="57n-3g-FmY" secondAttribute="centerX" id="cHR-qr-05y"/>
+                            <constraint firstItem="gPC-oQ-63F" firstAttribute="top" secondItem="57n-3g-FmY" secondAttribute="bottom" constant="8" id="cdY-xb-GRE"/>
+                            <constraint firstItem="LSU-s8-PDQ" firstAttribute="leading" secondItem="57n-3g-FmY" secondAttribute="trailing" constant="5" id="iLL-Ak-IgK"/>
+                            <constraint firstItem="zzE-Vp-Tb5" firstAttribute="leading" secondItem="icD-ar-5t6" secondAttribute="trailing" constant="5" id="m5Q-we-QkL"/>
+                            <constraint firstItem="0ui-DW-a1L" firstAttribute="leading" secondItem="zzE-Vp-Tb5" secondAttribute="trailing" constant="21" id="xKa-zV-aPH"/>
                         </constraints>
                     </view>
                     <connections>
@@ -587,7 +638,7 @@
         <scene sceneID="VMB-Io-sra">
             <objects>
                 <navigationController id="ngC-0v-zPh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="nav2" selectedImage="nav2_active" id="0rN-mc-h5M"/>
+                    <tabBarItem key="tabBarItem" title="" image="creditreport" id="0rN-mc-h5M"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="RwM-QV-IbO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -625,6 +676,7 @@
     </scenes>
     <resources>
         <image name="alerts" width="748" height="1062"/>
+        <image name="bell" width="30" height="30"/>
         <image name="button_click_dashboard" width="566" height="84"/>
         <image name="button_click_income" width="566" height="84"/>
         <image name="button_click_simulate" width="566" height="84"/>
@@ -637,18 +689,10 @@
         <image name="dots" width="130" height="20"/>
         <image name="identity_protection" width="750" height="1061"/>
         <image name="info" width="25" height="25"/>
-        <image name="nav1" width="150" height="118"/>
-        <image name="nav1_active" width="150" height="118"/>
-        <image name="nav2" width="150" height="118"/>
-        <image name="nav2_active" width="150" height="118"/>
-        <image name="nav3" width="150" height="118"/>
-        <image name="nav3_active" width="150" height="118"/>
-        <image name="nav4" width="150" height="118"/>
-        <image name="nav4_active" width="150" height="118"/>
-        <image name="nav5" width="150" height="118"/>
-        <image name="nav5_active" width="150" height="118"/>
         <image name="settings" width="30" height="30"/>
         <image name="slider_content" width="453" height="187"/>
         <image name="smartloans" width="316" height="173"/>
+        <image name="tu" width="30" height="30"/>
+        <image name="unlock" width="30" height="30"/>
     </resources>
 </document>
