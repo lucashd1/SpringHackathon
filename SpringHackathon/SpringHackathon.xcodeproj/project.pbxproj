@@ -146,11 +146,10 @@
 		A097743D1AE0344F00ED69CB /* SpringHackathon */ = {
 			isa = PBXGroup;
 			children = (
+				DBE2EB9B1AE1FBDB0091BBCE /* Model */,
+				DBE2EB9A1AE1FBB80091BBCE /* Controller */,
 				DBE2EB981AE1F58F0091BBCE /* SwiftyJSON.swift */,
 				A09774401AE0344F00ED69CB /* AppDelegate.swift */,
-				DBE2EB9A1AE1FBB80091BBCE /* Controller */,
-				DBE2EB9C1AE1FBEA0091BBCE /* View */,
-				DBE2EB9B1AE1FBDB0091BBCE /* Model */,
 				A09774471AE0344F00ED69CB /* Main.storyboard */,
 				A097744A1AE0344F00ED69CB /* Images.xcassets */,
 				A097744C1AE0344F00ED69CB /* LaunchScreen.xib */,
@@ -237,13 +236,6 @@
 				DBE2EB9D1AE1FC4A0091BBCE /* TransunionModel.swift */,
 			);
 			name = Model;
-			sourceTree = "<group>";
-		};
-		DBE2EB9C1AE1FBEA0091BBCE /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
 			sourceTree = "<group>";
 		};
 		DBE2EB9F1AE21D600091BBCE /* Fonts */ = {

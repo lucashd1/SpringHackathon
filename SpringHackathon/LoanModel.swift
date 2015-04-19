@@ -34,33 +34,29 @@ class Loan {
         if type == "Auto" {
             var maxdebt: Float = 0
             var maxDTI: Float = 0
-            let avg: Float = 471*self.months
+            let avg: Float = 471 * self.months
+            
             if score >= 720 {
                 self.range = "720_850"
                 maxDTI = 0.4
                 maxdebt = maxDTI * self.income
-            }
-            else if score >= 690 {
+            } else if score >= 690 {
                 self.range = "690_719"
                 maxDTI = 0.3
                 maxdebt = maxDTI * self.income
-            }
-            else if score >= 660 {
+            } else if score >= 660 {
                 self.range = "660_689"
                 maxDTI = 0.3
                 maxdebt = maxDTI * self.income
-            }
-            else if score >= 620 {
+            } else if score >= 620 {
                 self.range = "620_659"
                 maxDTI = 0.3
                 maxdebt = maxDTI * self.income
-            }
-            else if score >= 590 {
+            } else if score >= 590 {
                 self.range = "590_619"
                 maxDTI = 0.17
                 maxdebt = maxDTI * self.income
-            }
-            else {
+            } else {
                 self.range = "500_589"
                 maxDTI = 0.15
                 maxdebt = maxDTI * self.income
@@ -73,8 +69,7 @@ class Loan {
                 self.max = avg
             }
             self.max = round(self.max, rnd: 500)
-        }
-        else {
+        } else {
             var maxdebt: Float = 0
             var maxDTI: Float = 0
             let avg: Float = 1061*self.months
@@ -82,32 +77,28 @@ class Loan {
                 self.range = "760_850"
                 maxDTI = 0.4
                 maxdebt = maxDTI * self.income
-            }
-            else if score >= 700 {
+            } else if score >= 700 {
                 self.range = "700_759"
                 maxDTI = 0.4
                 maxdebt = maxDTI * self.income
-            }
-            else if score >= 680 {
+            } else if score >= 680 {
                 self.range = "680_699"
                 maxDTI = 0.3
                 maxdebt = maxDTI * self.income
-            }
-            else if score >= 660 {
+            } else if score >= 660 {
                 self.range = "660_679"
                 maxDTI = 0.3
                 maxdebt = maxDTI * self.income
-            }
-            else if score >= 640 {
+            } else if score >= 640 {
                 self.range = "640_659"
                 maxDTI = 0.25
                 maxdebt = maxDTI * self.income
-            }
-            else {
+            } else {
                 self.range = "620_639"
                 maxDTI = 0.25
                 let maxdebt = maxDTI * self.income
             }
+            
             self.min = 100000
             let curDTI = self.total / self.income
             let maxMonthly = (maxDTI * self.income) - total
@@ -123,12 +114,13 @@ class Loan {
         var res: Float = val
         let mod = res % rnd
         let mid = rnd / 2
+        
         if mod < mid {
             res = res - mod
-        }
-        else {
+        } else {
             res = res + rnd - mod
         }
+        
         return res
     }
     
@@ -164,30 +156,30 @@ class Loan {
         else {
             self.estimated = self.score - 15
         }
+        
         var mnths = 12
-        var additional = 0;
+        var additional = 0
+        
         if self.monthly > 10000 {
             additional = 50
-        }
-        else if self.monthly > 5000 {
+        } else if self.monthly > 5000 {
             additional = 30
-        }
-        else if self.monthly > 1000 {
+        } else if self.monthly > 1000 {
             additional = 20
-        }
-        else {
+        } else {
             additional = 15
         }
+        
         while(mnths != 0) {
             self.estimated += additional
             mnths = mnths - 1
         }
+        
         if self.estimated > 990 {
             self.estimated = 990
         }
         if self.estimated < 501 {
             self.estimated = 501
         }
-        println(self.estimated)
     }
 }

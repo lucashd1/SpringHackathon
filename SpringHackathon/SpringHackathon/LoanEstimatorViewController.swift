@@ -131,10 +131,10 @@ class LoanEstimatorViewController: UIViewController {
     func round(val: Float) {
         let mod = self.slider.value % val
         let mid = val / 2
+        
         if mod < mid {
             slider.value -= mod
-        }
-        else {
+        } else {
             slider.value += (val - mod)
         }
     }

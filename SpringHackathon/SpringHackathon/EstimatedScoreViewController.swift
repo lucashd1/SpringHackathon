@@ -26,6 +26,7 @@ class EstimateScoreViewController: UIViewController, UIWebViewDelegate {
                 self.score.loadHTMLString(contents, baseURL: urlPath)
             }
         }
+        
         setTextField()
     }
     
@@ -41,22 +42,16 @@ class EstimateScoreViewController: UIViewController, UIWebViewDelegate {
         let diff = self.loan.estimated - self.loan.score
         self.report.text = "If you were to take out an \(type) of $\(princ)0 over \(length) YEARS at an APR OF \(apr)%, your credit score would change by \(diff) points in the next year."
         
-        //self.difference.text = diff < 0 ? "- " : "+ "
-        //self.difference.text = "\(diff)"
         if let font = UIFont(name: "IntroRegular", size: 26) {
             self.difference.font = font
         }
         
-        if diff > 0 {
+        if diff < 0 {
             self.difference.text = "- \(diff)"
+            self.difference.textColor = UIColor.redColor()
         } else {
             self.difference.text = "+ \(diff)"
-        }
-        
-        if diff <= 0 {
             self.difference.textColor = UIColor(red: 0.153, green: 0.651, blue: 0.780, alpha: 1.0)
-        } else {
-            self.difference.textColor = UIColor.redColor()
         }
     }
 }
