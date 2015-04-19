@@ -20,7 +20,7 @@ public class JsonLoader {
     var user: User?
     
     func loadJson() {
-        if let path = NSBundle.mainBundle().pathForResource("WoodenJSON", ofType: "json") {
+        if let path = NSBundle.mainBundle().pathForResource("BellJSON", ofType: "json") {
             if let data = NSData(contentsOfFile: path) {
                 let json = JSON(data: data, options: NSJSONReadingOptions.AllowFragments, error: nil)
                 let address = json["Reports"]["SINGLE_REPORT_TU"]["NEW-CurrentAddr"]["TUC"][0]["address"].stringValue

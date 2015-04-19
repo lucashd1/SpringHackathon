@@ -503,16 +503,24 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="M65-KL-yiC">
-                                <rect key="frame" x="87" y="382" width="426" height="128"/>
+                                <rect key="frame" x="87" y="386" width="426" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="IntroRegular" family="Intro" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="IntroRegular" family="Intro" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMC-H5-iqo">
+                                <rect key="frame" x="256" y="516" width="89" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="lMt-Rn-n2X" firstAttribute="top" secondItem="M65-KL-yiC" secondAttribute="bottom" constant="32" id="9Ia-Je-Dc2"/>
+                            <constraint firstAttribute="centerX" secondItem="KMC-H5-iqo" secondAttribute="centerX" id="0AI-ja-xd2"/>
+                            <constraint firstItem="M65-KL-yiC" firstAttribute="top" secondItem="Snr-dL-N3X" secondAttribute="bottom" constant="350" id="7gs-yt-PAA"/>
                             <constraint firstItem="7Tl-Fm-ElX" firstAttribute="top" secondItem="i89-gI-fC8" secondAttribute="topMargin" constant="25" id="FsE-7a-JhP"/>
+                            <constraint firstItem="KMC-H5-iqo" firstAttribute="top" secondItem="M65-KL-yiC" secondAttribute="bottom" constant="8" id="LzO-zI-RSr"/>
                             <constraint firstAttribute="trailingMargin" secondItem="7Tl-Fm-ElX" secondAttribute="trailing" constant="-16" id="U2f-ud-8xR"/>
                             <constraint firstItem="7Tl-Fm-ElX" firstAttribute="leading" secondItem="i89-gI-fC8" secondAttribute="leadingMargin" constant="-16" id="fqe-xt-Ns6"/>
                             <constraint firstAttribute="trailingMargin" secondItem="M65-KL-yiC" secondAttribute="trailing" constant="25" id="hVa-8q-Pcg"/>
@@ -520,6 +528,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="difference" destination="KMC-H5-iqo" id="6pL-en-RZl"/>
                         <outlet property="report" destination="M65-KL-yiC" id="vsk-Uy-FoI"/>
                         <outlet property="score" destination="7Tl-Fm-ElX" id="THf-k2-jPZ"/>
                     </connections>
