@@ -10,4 +10,9 @@ import UIKit
 
 class TabBarController: UITabBarController {
     var user: User?
+    
+    override func viewDidLoad() {
+        //tabBarController?.tabBar.frame.size.width = self.view.frame.width+4
+        //tabBarController?.tabBar.frame.origin.x = -2
+    }
 }
