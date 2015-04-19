@@ -10,7 +10,7 @@ import UIKit
 
 class EstimateScoreViewController: UIViewController, UIWebViewDelegate {
     @IBOutlet weak var score: UIWebView!
-    @IBOutlet weak var smartLoanDescription: UILabel!
+    @IBOutlet weak var report: UITextView!
     
     var loan: Loan!
     
@@ -25,9 +25,19 @@ class EstimateScoreViewController: UIViewController, UIWebViewDelegate {
                 self.score.loadHTMLString(contents, baseURL: urlPath)
             }
         }
+        setTextField()
     }
     
     func webViewDidFinishLoad(webView: UIWebView) {
         self.score.stringByEvaluatingJavaScriptFromString("showData(\(self.loan.estimated))")
+    }
+    
+    func setTextField() {
+        let type = "\(self.loan.type.uppercaseString) LOAN"
+        let princ = self.loan.principal
+        let length: Float = self.loan.months / 12
+        let apr = self.loan.apr
+        let diff = self.loan.estimated - self.loan.score
+        self.report.text = "If you were to take out an \(type) of $\(princ)0 over \(length) YEARS at an APR OF \(apr)%, your credit score would change by \(diff) points in the next year."
     }
 }

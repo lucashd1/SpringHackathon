@@ -22,6 +22,7 @@ class Loan {
     var estimated = 0
     var income: Float = 0
     var total : Float = 0
+    var principal: Float = 0
     
     init(score: Int, state: String) {
         self.score = score

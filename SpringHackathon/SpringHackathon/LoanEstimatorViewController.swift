@@ -26,6 +26,7 @@ class LoanEstimatorViewController: UIViewController {
     func updateValues() {
         // Principal.
         self.principal.text = "$\(Int(slider.value))"
+        self.loan.principal = slider.value
         
         // APR.
         self.loan.calcAPR()
