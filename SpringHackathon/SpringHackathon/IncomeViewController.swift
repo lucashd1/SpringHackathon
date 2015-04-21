@@ -40,7 +40,6 @@ class IncomeViewController: UIViewController {
             var formattedNumber = formatter.stringFromNumber(number!)!
             var range = Range(start: advance(formattedNumber.startIndex, 1), end: advance(formattedNumber.endIndex, -3))
             formattedString = formattedNumber.substringWithRange(range)
-            
         }
         
         self.income.text = formattedString

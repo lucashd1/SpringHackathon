@@ -167,6 +167,7 @@ class LoanEstimatorViewController: UIViewController {
         loanTerm.setTitleTextAttributes(attributes, forState: UIControlState.Normal)
         loanTerm.setTitleTextAttributes(attributes, forState: UIControlState.Highlighted)
         loanTerm.setTitleTextAttributes(attributes, forState: UIControlState.Selected)
+        
         self.principal.font = self.principal.font.fontWithSize(22)
         self.apr.font = self.apr.font.fontWithSize(22)
         self.monthlyPayment.font = self.monthlyPayment.font.fontWithSize(22)

@@ -36,13 +36,15 @@ class EstimateScoreViewController: UIViewController, UIWebViewDelegate {
     
     func setTextField() {
         let type = "\(self.loan.type.uppercaseString) LOAN"
-        let princ = self.loan.principal
+        let principal = Int(self.loan.principal)
         let length: Float = self.loan.months / 12
-        let apr = self.loan.apr
+        let apr = NSString(format: "%.2f%%", self.loan.apr) as String
         let diff = self.loan.estimated - self.loan.score
-        self.report.text = "If you were to take out an \(type) of $\(princ)0 over \(length) YEARS at an APR OF \(apr)%, your credit score would change by \(diff) points in the next year."
+        let change = diff >= 0 ? "increase" : "decrease"
         
-        if let font = UIFont(name: "IntroRegular", size: 26) {
+        self.report.text = "If you were to take out an \(type) of $\(principal) over \(length) YEARS at an APR OF \(apr), your credit score would \(change) by \(diff) points in the next year."
+        
+        if let font = UIFont(name: "IntroRegular", size: 30) {
             self.difference.font = font
         }
         
