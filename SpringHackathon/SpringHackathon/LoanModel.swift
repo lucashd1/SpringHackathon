@@ -61,6 +61,7 @@ class Loan {
                 maxDTI = 0.15
                 maxdebt = maxDTI * self.income
             }
+            
             self.min = 1000
             let curDTI = self.total / self.income
             let maxMonthly = (maxDTI * self.income) - total

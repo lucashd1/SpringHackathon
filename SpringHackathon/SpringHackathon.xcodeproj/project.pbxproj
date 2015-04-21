@@ -56,7 +56,7 @@
 /* Begin PBXFileReference section */
 		50435E2B1AE2D5D00068E285 /* IncomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeViewController.swift; sourceTree = "<group>"; };
 		508F32D61AE22D040041BA2B /* LoanJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LoanJSON.json; sourceTree = "<group>"; };
-		508F32DE1AE23A6E0041BA2B /* LoanModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoanModel.swift; path = ../LoanModel.swift; sourceTree = "<group>"; };
+		508F32DE1AE23A6E0041BA2B /* LoanModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanModel.swift; sourceTree = "<group>"; };
 		508F32E01AE24A850041BA2B /* EstimatedScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstimatedScoreViewController.swift; sourceTree = "<group>"; };
 		A097743B1AE0344F00ED69CB /* SpringHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A097743F1AE0344F00ED69CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
